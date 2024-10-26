@@ -10,12 +10,17 @@
 
 <!-- this is a html test code  -->
 
+<button id="color" onclick="colorchange()">Change Color</button>
 
-<scirpt>
-	function submit(){
-	console.log('submit!')
+<script type="text/javascript">
+	const color = ['red','green','black'];
+	const btn = document.getElementById('color');
+	function colorchange(colorItem){
+		return this.style.backgroundcolor = colorItem[Math.floor(Math.random()* colorItem.lenght)];
+		 	
 	}
-</scirpt>
+ 
+</script>
 <script src="oop.js"></script>
 </body>
 </html>
