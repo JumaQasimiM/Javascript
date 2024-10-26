@@ -13,7 +13,7 @@ class Person{
 	PrintInfo(){
 		const currentDate = new Date();
 		const age = currentDate.getFullYear() - this.dateOfBirth;
-		console.log('Mr./Mis.' + this.name +' is '+ age +'Years old!');
+		console.log('Mr./Mis. ' + this.name +' is '+ age +' years old!');
 	}
 }
 
@@ -21,7 +21,12 @@ class Person{
 // Inheritance
 class Student extends Person{
 	constructor(name, dateOfBirth, adress, gerad){
+		super(name, dateOfBirth, adress)
 		this.gerad = gerad
 	}
 
 }
+
+const s =new Student('qasimi',1997,'ABC','12th class');
+s.Address();
+s.PrintInfo()
