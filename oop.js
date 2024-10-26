@@ -16,3 +16,12 @@ class Person{
 		console.log('Mr./Mis.' + this.name +' is '+ age +'Years old!');
 	}
 }
+
+
+// Inheritance
+class Student extends Person{
+	constructor(name, dateOfBirth, adress, gerad){
+		this.gerad = gerad
+	}
+
+}
