@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-height: 100vh;
+	background-image: url('https://kabulnow.com/wp-content/uploads/2021/02/jaghori-770x434-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+/*	background-color: lightgray;*/
+}
+
+
+nav{
+	background-color: white;
+	box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+ul{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 23px;
+	font-weight: bold;
+}
+nav li{
+	height: 50px;
+
+}
+nav a{
+	height: 100%;
+	padding: 0px 10px;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+
+
+
+nav a:hover{
+	background-color: #f0f0f0;
+
+}
+
+
+nav li:first-child{
+	margin-right: auto;
+}

@@ -4,23 +4,24 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Test Javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<nav>
+	<ul>
+		<li><a href="#"> JAGHORI</a></li>
+		<li class="hideOnMobile"><a href="login.html">Login</a></li>
+		<li class="hideOnMobile"><a href="#">Contuct Us</a></li>
+		<li class="hideOnMobile"><a href="#">Regester</a></li>
+		<li class="hideOnMobile"><a href="#">About</a></li>
+	</ul>
+</nav>
 <h1>JavaScript</h1>
 
 <!-- this is a html test code  -->
 
 <button id="color" onclick="colorchange()">Change Color</button>
 
-<script type="text/javascript">
-	const color = ['red','green','black'];
-	const btn = document.getElementById('color');
-	function colorchange(colorItem){
-		return this.style.backgroundcolor = colorItem[Math.floor(Math.random()* colorItem.lenght)];
-		 	
-	}
- 
-</script>
 <script src="oop.js"></script>
 </body>
 </html>
