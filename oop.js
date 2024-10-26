@@ -1,18 +1,18 @@
 // OOP in javaScript
-
-
 class Person{
 	// Parent class
-	constructor(name, dateOfBirth){
+	constructor(name, dateOfBirth,adress){
 		this.name = name
 		this.dateOfBirth = dateOfBirth
+		this.adress = adress
 	}
-
+	// Adress
+	Address(){
+		console.log(this.adress)
+	}
 	PrintInfo(){
 		const currentDate = new Date();
 		const age = currentDate.getFullYear() - this.dateOfBirth;
-
-		console.log('Mr./Mis.' + this.name +' is '+ age +'Years old!')
+		console.log('Mr./Mis.' + this.name +' is '+ age +'Years old!');
 	}
-
 }
