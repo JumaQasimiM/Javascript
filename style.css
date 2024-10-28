@@ -49,3 +49,17 @@ nav a:hover{
 nav li:first-child{
 	margin-right: auto;
 }
+/*banner home page*/
+
+#banner{
+	min-height: 60vh;
+	background-image: url('https://www.trip.me/old-wp-content/2013/11/Green-waterfalls.gif');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+/*smal screen*/
