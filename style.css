@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 body{
 	min-height: 100vh;
@@ -8,6 +9,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	font-family: Verdana;
 /*	background-color: lightgray;*/
 }
 
@@ -60,18 +62,35 @@ nav li:first-child{
 	background-position: center;
 }
 
+/*banner column*/
 
+.column-left{
+	float: left;
+	width: 40%;
+	padding: 10px;
+	border: 3px solid red;
+}
+.column-right{
+	float: right;
+	width: 50%;
+	padding: 10px;
+	border: 2px solid yellow;
+}
+.row::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+/*smal screen for banner*/
+@media screen and (max-width:600px){
+	.column-left, .column-right{
+		width: 100%;
+	}
+	
+}
 
 
 /*smal screen*/
-
-#text_owerflow{
-	border: 3px solid red;
-white-space: nowrap; 
-  width: 200px; 
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 
 @font-face {
   font-family: "zantrokeregular";
@@ -89,5 +108,39 @@ white-space: nowrap;
 	padding: 20px;
 	font-family: Verdana;
 }
+
+/*footer*/
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+#contuct{
+	border: 1px solid lightcoral;
+	min-height: 200px;
+
+}
+#footer1{
+/*	border: 1px  solid lightpink;*/
+	min-height: 50px;
+	padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
