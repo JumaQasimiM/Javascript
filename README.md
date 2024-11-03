@@ -2,10 +2,10 @@
 Object-Oriented Programming is a programming style based on classes and objects. These group data (properties) and methods (actions) inside a box.
 
 ## There are 4 main principles in OOP, and they are:
-### Abstraction
-### Encapsulation
-### Inheritance
-### Polymorphism
+### 1.Abstraction
+### 2.Encapsulation
+### 3.Inheritance
+### 4.Polymorphism
 
 OOP was developed to make code more flexible and easier to maintain.
 
