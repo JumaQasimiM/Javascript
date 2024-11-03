@@ -11,3 +11,4 @@ OOP was developed to make code more flexible and easier to maintain.
 
 ## JavaScript
 JavaScript is prototype-based procedural language, which means it supports both functional and object-oriented programming.
+> github readme.md link: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
