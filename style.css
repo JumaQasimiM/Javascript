@@ -75,7 +75,9 @@ white-space: nowrap;
 
 @font-face {
   font-family: "zantrokeregular";
-  src:Verdana, sans-serif;
+  src:
+    url("fonts/zantroke-webfont.woff2") format("woff2"),
+    url("fonts/zantroke-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
