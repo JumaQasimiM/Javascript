@@ -10,14 +10,13 @@ body{
 	background-size: cover;
 	background-position: center;
 	font-family: Verdana;
-/*	background-color: lightgray;*/
+	background-color: #f1f1f1;
 }
 
 
 nav{
-/*	background-color: white;*/
-	background-image: linear-gradient(to top, lightgray, lightgray);
-	box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+	background-color: white;
+/*	box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);*/
 }
 ul{
 	width: 100%;
@@ -29,7 +28,7 @@ ul{
 	font-weight: bold;
 }
 nav li{
-	height: 50px;
+	height: 80px;
 
 }
 nav a{
@@ -57,30 +56,27 @@ nav li:first-child{
 
 #banner{
 	min-height: 60vh;
-	background-image: url('https://www.trip.me/old-wp-content/2013/11/Green-waterfalls.gif');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 
 /*banner column*/
-
 .column-left{
 	float: left;
-	width: 60%;
-	padding: 10px;
-	min-height: 60vh;
-	border: 1px solid red;
+	width: 50%;
+	min-height: 80vh;
+		background-image: url('https://sabzlearn.ir/wp-content/themes/sabzlearn-theme/images/svgs/hero-light.svg');
+/*	background-image: url('https://www.trip.me/old-wp-content/2013/11/Green-waterfalls.gif');*/
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 
 
 }
 .column-right{
 	float: right;
-	width: 35%;
+	width: 45%;
 	min-height: 60vh;
 	padding: 10px;
 
-	border: 1px solid red;
 }
 
 .row::after{
@@ -135,10 +131,6 @@ nav li:first-child{
   border: 1px solid #ccc;
   border-radius: 1em;
 }
-
-
-
-
 
 
 #footer1{
