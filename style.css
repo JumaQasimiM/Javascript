@@ -57,24 +57,24 @@ nav li:first-child{
 #banner{
 	min-height: 60vh;
 }
+#banner-img{
+	width: 100%;
+	height: 100%;
+}
 
 /*banner column*/
 .column-left{
 	float: left;
 	width: 50%;
-	min-height: 80vh;
-		background-image: url('https://sabzlearn.ir/wp-content/themes/sabzlearn-theme/images/svgs/hero-light.svg');
+/*		background-image: url('https://sabzlearn.ir/wp-content/themes/sabzlearn-theme/images/svgs/hero-light.svg');*/
 /*	background-image: url('https://www.trip.me/old-wp-content/2013/11/Green-waterfalls.gif');*/
-		background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
+	
 
 }
 .column-right{
 	float: right;
 	width: 45%;
-	min-height: 60vh;
+	border: 1px solid red;
 	padding: 10px;
 
 }
