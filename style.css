@@ -124,11 +124,23 @@ nav li:first-child{
 }
 
 #contuct{
-/*	border: 1px solid lightcoral;*/
 	min-height: 200px;
 	padding: 5px;
-
 }
+
+#contuct-form  {
+  display: inline-block;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+
+
+
+
+
 #footer1{
 /*	border: 1px  solid lightpink;*/
 	min-height: 50px;
