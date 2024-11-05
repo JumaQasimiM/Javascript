@@ -52,6 +52,7 @@ nav a:hover{
 nav li:first-child{
 	margin-right: auto;
 }
+
 /*banner home page*/
 
 #banner{
@@ -66,16 +67,22 @@ nav li:first-child{
 
 .column-left{
 	float: left;
-	width: 40%;
+	width: 60%;
 	padding: 10px;
-	border: 3px solid red;
+	min-height: 60vh;
+	border: 1px solid red;
+
+
 }
 .column-right{
 	float: right;
-	width: 50%;
+	width: 35%;
+	min-height: 60vh;
 	padding: 10px;
-	border: 2px solid yellow;
+
+	border: 1px solid red;
 }
+
 .row::after{
 	content: '';
 	display: table;
@@ -85,6 +92,14 @@ nav li:first-child{
 @media screen and (max-width:600px){
 	.column-left, .column-right{
 		width: 100%;
+		margin: 0;
+		padding: 0;
+
+
+	}
+	.column-right{
+		margin-top: 10px;
+		padding: 5px;
 	}
 	
 }
@@ -92,14 +107,6 @@ nav li:first-child{
 
 /*smal screen*/
 
-@font-face {
-  font-family: "zantrokeregular";
-  src:
-    url("fonts/zantroke-webfont.woff2") format("woff2"),
-    url("fonts/zantroke-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /*content div*/
 #content{
@@ -117,14 +124,24 @@ nav li:first-child{
 }
 
 #contuct{
-	border: 1px solid lightcoral;
+/*	border: 1px solid lightcoral;*/
 	min-height: 200px;
+	padding: 5px;
 
 }
 #footer1{
 /*	border: 1px  solid lightpink;*/
 	min-height: 50px;
 	padding: 5px;
+
+}
+hr {
+  border: 1px solid red;
+  height: 10px;
+  background-color: lightyellow;
+  /* Set the hr color */
+  color: #333;  /* old IE */
+/*  background-color: #333;  /* Modern Browsers */
 
 }
 
