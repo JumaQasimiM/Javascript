@@ -74,9 +74,12 @@ nav li:first-child{
 .column-right{
 	float: right;
 	width: 45%;
-	border: 1px solid red;
 	padding: 10px;
-
+	text-align: left;
+	margin-top: 10%;
+/*	font-family: Trebuchet MS;*/
+	font-family: Courier New;
+/*font-family: Brush Script MT;*/
 }
 
 .row::after{
