@@ -1,7 +1,7 @@
 // html document
 
-let testEle = document.getElementById('test');
-testEle.style.backgroundColor ='lightgreen'
+let testEle = document.querySelector('#test');
+
 
 // combien
 const num1 = [1,2,34,5];
