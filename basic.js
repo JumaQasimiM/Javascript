@@ -1,6 +1,7 @@
 // html document
 
 let testEle = document.querySelector('#test');
+let showcode = document.querySelector('#showcode');
 
 
 // combien
@@ -26,4 +27,4 @@ const atlestONeNegative = numbers.every(function (numbers) {
 // show in html page
 testEle.innerHTML = atlestONeNegative;
 
-
+showcode.innerHTML = "const numbers = [40,55,60,90]; const atlestONeNegative = numbers.every(function (numbers) {return numbers >=60;});"
