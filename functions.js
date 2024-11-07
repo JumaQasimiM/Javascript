@@ -22,4 +22,60 @@ let odd_even = function(number){
 	return show_result.innerHTML = result;
 }
 
-odd_even(089)
+// odd_even(89)
+
+// arow functtion
+const add = (a,b)=>{
+	return a+b;
+}
+
+// 
+
+const Person = function(name){
+	//  Closures
+	let gender;
+
+	const newperson ={
+		setName(new_name){
+			name = new_name;
+		},
+		getName(){
+			return name;
+		},
+
+
+		getGender(){
+			return gender;
+		},
+		setGender(new_gender){
+			if (new_gender ==='string' && 
+							new_gender.toLowerCase() ==='male' || new_gender.toLowerCase()== 'female'){
+					gender = new_gender;
+			}
+		},
+	
+	};
+	return newperson;
+};
+
+const person1 = Person('juma');
+
+person1.setGender('Female')
+show_result.innerHTML = person1.getGender()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
