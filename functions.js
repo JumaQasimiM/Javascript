@@ -65,6 +65,15 @@ show_result.innerHTML = person1.getGender()
 
 
 
+const apicode = (function(){
+	const api = 'kdhfw3459';
+	return function(){
+		return api;
+	}
+})();
+
+
+
 
 
 
