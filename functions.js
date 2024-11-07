@@ -29,31 +29,28 @@ const add = (a,b)=>{
 	return a+b;
 }
 
-// 
-
 const Person = function(name){
 	//  Closures
-	let gender;
-
+	let gender; 
 	const newperson ={
+		// setter
 		setName(new_name){
 			name = new_name;
 		},
+		// getter
 		getName(){
 			return name;
 		},
-
-
+		// getter 
 		getGender(){
 			return gender;
 		},
+		// setter
 		setGender(new_gender){
-			if (new_gender ==='string' && 
-							new_gender.toLowerCase() ==='male' || new_gender.toLowerCase()== 'female'){
-					gender = new_gender;
+			if (new_gender ==='string' && new_gender.toLowerCase() ==='male' || new_gender.toLowerCase()== 'female'){
+				gender = new_gender;
 			}
 		},
-	
 	};
 	return newperson;
 };
