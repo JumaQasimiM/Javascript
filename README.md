@@ -9,6 +9,18 @@ Object-Oriented Programming is a programming style based on classes and objects.
 
 OOP was developed to make code more flexible and easier to maintain.
 
+
+
+## Function
+Functions are one of the fundamental building blocks in JavaScript.
+## Function declarations
+A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
+
+	The name of the function.
+	A list of parameters to the function, enclosed in parentheses and separated by commas.
+	The JavaScript statements that define the function, enclosed in curly braces, { /* … */ }.
+
+
 ## JavaScript
 JavaScript is prototype-based procedural language, which means it supports both functional and object-oriented programming.
 > github readme.md link: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
