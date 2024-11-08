@@ -3,6 +3,9 @@ Object-Oriented Programming is a programming style based on classes and objects.
 
 ## There are 4 main principles in OOP, and they are:
 ### 1.Abstraction
+	JavaScript abstraction refers to the concept of hiding complex implementation details 
+	and showing only the essential features or functionalities of an object or module to the user 
+	also it is the fundamental concept in object-oriented programming.
 ### 2.Encapsulation
 ### 3.Inheritance
 ### 4.Polymorphism
