@@ -1,32 +1,27 @@
-// OOP in javaScript
-class Person{
-	// Parent class
-	constructor(name, dateOfBirth,adress){
-		this.name = name
-		this.dateOfBirth = dateOfBirth
-		this.adress = adress
-	}
-	// Adress
-	Address(){
-		console.log(this.adress)
-	}
-	PrintInfo(){
-		const currentDate = new Date();
-		const age = currentDate.getFullYear() - this.dateOfBirth;
-		console.log('Mr./Mis. ' + this.name +' is '+ age +' years old!');
-	}
+// Creating a constructor function
+
+// for the abstract class Shape
+function Shape() {
+    this.shapeName = &quot;shapeName&quot;;
+    throw new Error(`You cannot create an 
+    instance of Abstract Class`);
 }
 
+Shape.prototype.display = function () {
+    return &quot;Shape is: &quot; + this.shapeName;
+};
 
-// Inheritance
-class Student extends Person{
-	constructor(name, dateOfBirth, adress, gerad){
-		super(name, dateOfBirth, adress)
-		this.gerad = gerad
-	}
-
+// Creating a constructor function
+// for the concrete class Triangle
+function Triangle(shapeName) {
+    this.shapeName = shapeName;
 }
 
-const s =new Student('qasimi',1997,'ABC','12th class');
-s.Address();
-s.PrintInfo()
+// Creating an object without 
+// using the function constructor
+Triangle.prototype = Object
+    .create(Shape.prototype);
+
+// Creating an instance of the Triangle class
+let triangle = new Triangle(&quot;Equilateral&quot;);
+console.log(triangle.display());
