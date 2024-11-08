@@ -20,4 +20,22 @@ const Person ={
 
 Person.fullName = 'Ahmad Ahmadi';
 // show_result.innerHTML  = Person.fullName;
-show_result.innerHTML  = Person;
+// show_result.innerHTML  = Person;
+
+
+
+// Create  Video Object
+
+const video ={
+
+	title:'Soprt',
+	tags:['football','volyball'],
+	showTags(){
+		const self = this;
+		this.tags.forEach((tag)=>{ // Arow Function
+			console.log (this.title, tag);
+		});
+	},
+}
+
+video.showTags()
