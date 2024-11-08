@@ -4,7 +4,7 @@
 function Shape() {
     this.shapeName = &quot;shapeName&quot;;
     throw new Error(`You cannot create an 
-    instance of Abstract Class`);
+    	instance of Abstract Class`);
 }
 
 Shape.prototype.display = function () {
