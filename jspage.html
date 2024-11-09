@@ -12,6 +12,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+			float: left;
 
 
 		}
@@ -25,21 +26,64 @@
 /*			backdrop-filter: blur(10px);*/
 
 		}
+		.element{
+			float: right;
+			display: flex;
+			align-items: center;
+			justify-content: center	;
+			border: 1px solid green;
+			width: 50%;
+		}
+		.row::after{
+			clear: both;
+			content: '';
+			display: table;
+		}
+
+		.btn{
+			width: 145px;
+			height: 30px;
+			font-size: 23px;
+			border-radius: 3px;
+			margin-right: 50px;
+		}
+		.btn-md{
+			width: 60px;
+			height: 50px;
+			font-size: 23px;
+			border-radius: 5px;
+			margin-right: 50px;	
+			border: 2px solid blue;
+
+		}
+		
+
 	
 	</style>
 	
 </head>
 <body>
-
-<div class="show">
-	<code id="showcode"></code><br>
-	<div class="show">
-		<h3 id="test"></h3>
-	</div>
+<div class="row">
 	
+	<div class="show">
+		<code id="showcode"></code><br>
+		<div class="show">
+			<h3 id="test"></h3>
+		</div>
+		
+	</div>
+	<div class="element">
+		<button class="btn" id="btn-red">red</button>
+	</div>
+</div>
+<div>
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias molestiae
+	dignissimos provident, sint ea! Esse, 
+	autem rerum officia qui quasi quaerat est harum, cum nemo reiciendis at, eum ipsa!
 </div>
 <!-- <script src="basic.js"></script> -->
 <!-- <script src="functions.js"></script> -->
-<script src="object.js"></script>
+<!-- <script src="object.js"></script> -->
+<script src="script.js"></script>
 </body>
 </html>
