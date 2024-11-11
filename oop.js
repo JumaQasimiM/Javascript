@@ -7,8 +7,9 @@ function Shape() {
     	instance of Abstract Class`);
 }
 
+// dispaly is a function 
 Shape.prototype.display = function () {
-    return &quot;Shape is: &quot; + this.shapeName;
+    return &quot; Shape is: &quot; + this.shapeName;
 };
 
 // Creating a constructor function
@@ -19,6 +20,7 @@ function Triangle(shapeName) {
 
 // Creating an object without 
 // using the function constructor
+// prototype inhretenc
 Triangle.prototype = Object
     .create(Shape.prototype);
 
