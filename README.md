@@ -12,7 +12,7 @@ Object-Oriented Programming is a programming style based on classes and objects.
 
 OOP was developed to make code more flexible and easier to maintain.
 
-
+### class have not Hoisting 
 
 ## Function
 Functions are one of the fundamental building blocks in JavaScript.
