@@ -62,9 +62,29 @@ class Student{
         console.log('this private method!');
     }
 }
-const s1 = Student('juma','qasimi','A');
+const s1 = new Student('juma','qasimi','A');
 // s1._gradePrint();
 
 
 // 2.useing weakmap
+// weakmap() is a dictionary {key,value}
+// key is an object
+// weakmap use in madul
+const _password = new WeakMap();
+const _confirmPassword = new WeakMap(); // private method
+class User{
+    constructor(password){
+        // set() is WeakMap method
+        _password.set(this,password);
+        _confirmPassword.set(this,()=>{
+            console.log('confirm password method!',this);
+        });
+    }
+    confirm(){
+        _confirmPassword.get(this)(); // () is class arow function form constructor
+        const pass = _password.get(this);
+        // body ...
+    }
 
+}
+const u1 = new User('123456');
