@@ -80,11 +80,26 @@ class User{
             console.log('confirm password method!',this);
         });
     }
-    confirm(){
+    // as get mthod 
+    // as a get property use get 
+    get confirm(){
         _confirmPassword.get(this)(); // () is class arow function form constructor
         const pass = _password.get(this);
         // body ...
+        console.log(pass)
+    }
+    // setter in weakmap
+    // use set
+    set pass(value){
+        if(value <=0) throw new Error('invalide password!');
+        _password.set(this, value);
     }
 
+
 }
+
 const u1 = new User('123456');
+// use setter 
+u1.pass = 'i34uasjkt';
+
+
