@@ -1,13 +1,7 @@
+// use common js or node js
 
+const { Circel } = require("./circelEs6");
 const _radius = new WeakMap();
-class Circel{
-    constructor(radius){
-        _radius.set(this,radius);
-    }
-    drow(){
-        console.log('Circel radius :'+ _radius.get(this));
-    }
-}
-
+exports._radius = _radius;
 module.exports = Circel;
 // module.exports = {'Circel':Circel,'ABC':ABC}
