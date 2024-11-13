@@ -32,9 +32,39 @@ class Person{
 
 }
 const p1 = new Person('juma', '1999');
-p1.age;
+// p1.age;
 // static method
 
 const p2 = Person.printInfo();
 
 // class Experation
+// expressions to create anonymous classes
+const Teacher = class{
+    constructor(){}
+}
+
+const p3 = new Teacher();
+// Abstraction or to make private property and method
+// 1. to make property as private  use symbol()
+// symbol() ervry time return a unique Symbol(value)
+// symbol() === symbol() // false
+
+
+const _grade = Symbol(); // property
+const _gradePrint = Symbol(); // method 
+class Student{
+    constructor(name,lastName, grade){
+        this.name = name;
+        this.lastName = lastName;
+        this[_grade] = grade; // this private 
+    }
+    [_gradePrint](){
+        console.log('this private method!');
+    }
+}
+const s1 = Student('juma','qasimi','A');
+// s1._gradePrint();
+
+
+// 2.useing weakmap
+
