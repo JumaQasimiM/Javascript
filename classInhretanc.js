@@ -22,3 +22,4 @@ class Cat extends Animal{
 
 }
 const tom = new Cat('Tom',3);
+tom.move();// move , cat move 
