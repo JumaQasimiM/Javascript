@@ -20,13 +20,21 @@ class Person{
             console.log(age);
         };
     }
-
+    // Instance method
+    // this depend on class object
     salary(){
         console.log(this.name);
     }
+    // static method
+    static printInfo(){
+        console.log('from static method!');
+    }
+
 }
 const p1 = new Person('juma', '1999');
 p1.age;
+// static method
 
+const p2 = Person.printInfo();
 
 // class Experation
