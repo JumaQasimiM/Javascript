@@ -5,6 +5,6 @@ export default class Circel{
         _radius.set(this,radius);
     }
     drow(){
-        console.log('Circel radius :'+ _radius.get(this));
+        return 'Circel radius :'+ _radius.get(this);
     }
 }

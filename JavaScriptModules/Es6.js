@@ -3,6 +3,9 @@
 // import  Circel,{A,B}  from "./circelEs6.js";
 
 
+const showinhtml = document.getElementById('test');
+
 import  Circel  from "./circelEs6.js";
 const c1 = new Circel(3);
-c1.drow();
+
+showinhtml.innerHTML = c1.drow();
