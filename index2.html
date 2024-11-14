@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Javascript</title>
+	<style type="text/css">
+		.show{
+			width: 500px;
+			height: 300px;
+			background: linear-gradient(45deg,#ff6b6b,#f8e71c);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			float: left;
+
+
+		}
+		#test{
+			width: 30%;
+			height: 23%;
+			text-align: center;
+			padding: 5px;
+			color: #333;
+			background-color: rgba(255, 255, 255, 0.3);
+			display: flex;
+			align-items: center;
+/*			backdrop-filter: blur(10px);*/
+
+
+		}
+		.element{
+			float: right;
+			display: flex;
+			align-items: center;
+			justify-content: center	;
+			border: 1px solid green;
+			width: 50%;
+		}
+		.row::after{
+			clear: both;
+			content: '';
+			display: table;
+		}
+
+		.btn{
+			width: 145px;
+			height: 30px;
+			font-size: 23px;
+			border-radius: 3px;
+			margin-right: 50px;
+		}
+		.btn-md{
+			width: 60px;
+			height: 50px;
+			font-size: 23px;
+			border-radius: 5px;
+			margin-right: 50px;	
+			border: 2px solid blue;
+
+		}
+		
+
+	
+	</style>
+	
+</head>
+<body>
+<div class="row">
+	<div class="show">
+		<code id="showcode"></code><br>
+		<div class="show">
+			<h3 id="test"></h3>
+		</div>
+	</div>
+	<div class="element">
+		<button class="btn" id="btn-red">red</button>
+	</div>
+</div>
+<div>
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias molestiae
+	dignissimos provident, sint ea! Esse, 
+	autem rerum officia qui quasi quaerat est harum, cum nemo reiciendis at, eum ipsa!
+</div>
+<!-- <script src="basic.js"></script> -->
+<!-- <script src="functions.js"></script> -->
+<!-- <script src="object.js"></script> -->
+<!-- <script src="script.js"></script> -->
+<!-- <script src="class.js"></script> -->
+<!-- <script src="classInhretanc.js"></script> -->
+<!-- <script src="JavaScriptModules/commonjs.js"></script> -->
+<script type="module" src="JavaScriptModules/Es6.js"></script>
+</body>
+</html>
