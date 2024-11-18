@@ -23,7 +23,19 @@ A function definition (also called a function declaration, or function statement
 	A list of parameters to the function, enclosed in parentheses and separated by commas.
 	The JavaScript statements that define the function, enclosed in curly braces, { /* … */ }.
 
+
+
+
+
+
+
 	
 ## JavaScript
 JavaScript is prototype-based procedural language, which means it supports both functional and object-oriented programming.
 > github readme.md link: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+[Live Demo]
+
+
+
+
