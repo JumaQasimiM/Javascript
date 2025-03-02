@@ -1,6 +1,6 @@
 
 const new_user ={
-    id:1000,
+    id:100,
     first_name:'juma',
     last_name:'Qasimi'
 }
