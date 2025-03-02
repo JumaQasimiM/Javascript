@@ -14,6 +14,7 @@ const sliec = [...num1,...num2,12];
 const title = 'this is test file!';
 
 const parts = title.split(' ');
+
 // slag => www.codepython.com/artical/this_is_test_file!
 const slag = parts.join('_');
 
