@@ -4,4 +4,9 @@ const add = (a,b)=>{
 	return a+b;
 }
 const HandelClike = ()=>{
-	return 
+	if 1>2{
+	return true;
+	}
+	else{
+		return false;
+	}
