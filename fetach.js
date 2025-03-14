@@ -2,7 +2,7 @@
 
 fetch('https://reqres.in/api/product')
     .then(res =>res.json())
-    .;
+    .then(data=>console.log(dadta));
 
 const new_user ={
     id:100,
