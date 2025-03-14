@@ -1,6 +1,8 @@
 // read product form API
 
-fetch('https://reqres.in/api/product');
+fetch('https://reqres.in/api/product')
+    .then(res =>res.json())
+    .;
 
 const new_user ={
     id:100,
