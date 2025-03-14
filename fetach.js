@@ -1,3 +1,4 @@
+// read product form API
 
 const new_user ={
     id:100,
@@ -69,5 +70,4 @@ fetch('https://reqres.in/api/users/1000',{
 .catch(err=>console.log(err));
 
 
-// read product form API
 
