@@ -1,5 +1,7 @@
 // read product form API
 
+fetch('https://reqres.in/api/product');
+
 const new_user ={
     id:100,
     first_name:'juma',
