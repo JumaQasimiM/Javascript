@@ -10,7 +10,8 @@ Object-Oriented Programming is a programming style based on classes and objects.
 ### 3.Inheritance
 
 ### 4.Polymorphism
-javascript 
+javascript and react js:
+
 
 
 OOP was developed to make code more flexible and easier to maintain.
