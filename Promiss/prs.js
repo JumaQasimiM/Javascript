@@ -151,6 +151,7 @@ fetch(api_url
     }
     return res.json();
 }).then(data=>{
+  console.log()
     // console.log(data)
 
     console.log(data.name)
