@@ -12,7 +12,8 @@ Object-Oriented Programming is a programming style based on classes and objects.
 ### 4.Polymorphism
 javascript and react js:
  > react component
-> 1.class component
+> 1. Class component
+> 2. Fanctional component 
 
 
 
