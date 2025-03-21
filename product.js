@@ -6,9 +6,10 @@ fetch('https://fakestoreapi.com/products')
   .then(data => displayProducts(data))
   .catch(err=>
     console.log('Error :',err));
+
 // read api function
 function displayProducts(products){
-  const productLit = document.getElementById('product');
+  const productLit = document.getElementById('product_list');
   products.forEach(product => {
     const item = document.createElement('div');
     item.classList.add('product');
