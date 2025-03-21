@@ -13,11 +13,11 @@ function displayProducts(products){
     const item = documentElement('div');
     item.classList.add('product');
     item.innerHTML = `
-    <h3>
-    ${product.title}
-    <h3/>
+    
+    <h3> ${product.title} <h3/>
     <img src = "${product.image}">
     <p>Price: ${product.price}</p>
+    
     ´;
     productLit.appendChild(item);
   });
