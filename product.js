@@ -6,8 +6,3 @@ fetch('https://fakestoreapi.com/products')
   .then(data => displayProducts(data))
   .catch(err=>
     console.log('Error :',err));
-
-// read api function
-function displayProducts(products){
- 
-}
