@@ -1,7 +1,7 @@
 // read product from api
 
-const url = 'https://fakestoreapi.com/products';
-fetch(url)
+
+fetch('https://fakestoreapi.com/products')
   .then(resp => response.json())
   .then(data => displayProducts(data))
   .catch(err=>
