@@ -6,6 +6,7 @@ fetch(url)
   .then(data => displayProducts(data))
   .catch(err=>
     console.log('Error :',err))
+// read api function
 function displayProducts(products){
   const productLit = document.getElemetById('product');
   products.forEach(product => {
