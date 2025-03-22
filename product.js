@@ -14,6 +14,7 @@ function displayProducts(products){
   products.forEach(product => {
     const item = document.createElement('div');
     item.classList.add('product');
+    console.log(12);
     item.innerHTML = `
     
     <h3> ${product.title} <h3/>
