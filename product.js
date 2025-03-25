@@ -2,7 +2,7 @@
 
 
 fetch('https://fakestoreapi.com/products')
-  .then(resp => response.json())
+  .then(resp => resp.json())
   .then(data => displayProducts(data))
   .catch(err=>
     console.log('Error :',err));
