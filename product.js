@@ -18,13 +18,14 @@ function displayProducts(products){
     
     // item.classList.add('product');
 
-    item.innerHTML = `
-    
-    <h3> ${product.title} <h3/>
-    <img src = "${product.image}">
-    <p>Price: ${product.price}</p>
-    
-    ´;
+    item.innerHTML =
+   ` <div id='product'><h3> ${product.title} <h3/> 
+    <img src = "${product.image}"> <p>Price: ${product.price}</p>
+    <button>Add</button>
+    </div>
+    `;
+
+
     productLit.appendChild(item);
-  })
-}
+  });
+};

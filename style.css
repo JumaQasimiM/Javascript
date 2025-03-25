@@ -16,3 +16,38 @@ body{
 	padding: 10px;
 	text-align: justify;
 }
+#product{
+	display: flex;
+	width: 500px;
+
+	/* background-color: white; */
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	img{
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+
+	}
+	h3{
+		font-family: 'Courier New', Courier, monospace;
+		text-align: left;
+		
+	}
+	button{
+		padding: 4px;
+		width: 80px;
+
+		border-radius: 5px;
+		border: none;
+	}
+	padding: 12px;
+	margin-top: 20px;
+
+}
+h1{
+	text-align: center;
+	border-bottom: 2px solid rebeccapurple;
+	padding: 8px;
+}
