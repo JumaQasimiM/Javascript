@@ -14,7 +14,7 @@ javascript and react js:
  > react component
 > 1. Class component
 > 2. Fanctional component
-## in this Project only use I Javascript
+## In this Project only use I Javascript
 
 
 
