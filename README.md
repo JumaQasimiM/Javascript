@@ -42,6 +42,10 @@ JavaScript is prototype-based procedural language, which means it supports both 
 > github readme.md link: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 ##  JavaScript Page
 1. Products
+   > get data from api useing fetch api
+   > for styling use only css
+3. 
+   
 ## Live Demo
 [Live Demo](https://jumaqasimim.github.io/Javascript/)
 
