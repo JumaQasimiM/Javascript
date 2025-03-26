@@ -43,6 +43,7 @@ JavaScript is prototype-based procedural language, which means it supports both 
 ##  JavaScript Page
 1. Products
    > get data from api useing fetch api
+   
    > for styling use only css
 3. 
    
