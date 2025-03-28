@@ -1,7 +1,7 @@
 // read product from api
 
 
-fetch('https://fakestoreapi.com/products?_limit=4')
+fetch('https://fakestoreapi.com/products?limit=4')
   .then(resp => resp.json())
   .then(data => displayProducts(data))
   .catch(err=>
