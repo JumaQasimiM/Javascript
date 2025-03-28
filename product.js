@@ -16,7 +16,7 @@ function displayProducts(products){
     
     const item = document.createElement('div');
     
-    // item.classList.add('product');
+    item.classList.add('product');
 
     item.innerHTML =
    ` <div id='product'><h3> ${product.title} <h3/> 
