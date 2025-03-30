@@ -19,8 +19,8 @@ function displayProducts(products){
     item.classList.add('product');
 
     item.innerHTML =
-   ` <div id='product'><h3> ${product.title} <h3/> 
-    <img src = "${product.image}"> <p>Price: ${product.price}</p>
+   ` <div id='product'><h3 class='text-blue-600 text-center p-3'> ${product.title} <h3/> 
+    <img src = "${product.image}" class='rounded' width='200' height='200'> <p>Price: ${product.price}</p>
     <button>Add</button>
     </div>
     `;
