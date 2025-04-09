@@ -5,4 +5,6 @@ ele.addEventListener('click',function(even){
     alert(even.target.className);
 });
 // create new component
-const button = ()=>{}
+const button = ()=>{
+    retrun 'hallo'
+}
