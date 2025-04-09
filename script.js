@@ -4,3 +4,4 @@ ele.addEventListener('click',function(even){
     even.target.className = 'btn-md';
     alert(even.target.className);
 });
+// create new component
