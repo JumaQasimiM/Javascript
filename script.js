@@ -6,5 +6,5 @@ ele.addEventListener('click',function(even){
 });
 // create new component
 const button = ()=>{
-    retrun 'hallo'
+    setIntervall()
 }
