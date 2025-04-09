@@ -6,5 +6,7 @@ ele.addEventListener('click',function(even){
 });
 // create new component
 const button = ()=>{
-    setIntervall(()=>{])
+    setIntervall(()=>{
+            
+        ])
 }
