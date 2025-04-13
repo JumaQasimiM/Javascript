@@ -1,3 +1,7 @@
+## free photos link
+ 1. https://undraw.co/illustrations
+ 2. https://storyset.com/
+
 ## Object-Oriented Programming
 Object-Oriented Programming is a programming style based on classes and objects. These group data (properties) and methods (actions) inside a box.
 
