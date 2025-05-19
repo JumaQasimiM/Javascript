@@ -1,1 +1,31 @@
 
+[Dein Vorname Nachname]  
+[Deine Adresse]  
+[PLZ, Stadt]  
+[Telefonnummer]  
+[E-Mail-Adresse]  
+
+[Name der Firma]  
+[Ansprechpartner, falls bekannt]  
+[Adresse der Firma]  
+[PLZ, Stadt]  
+
+[Datum]
+
+**Bewerbung um einen Ausbildungsplatz als Fachinformatiker – Fachrichtung Anwendungsentwicklung**
+
+Sehr geehrte Damen und Herren,
+
+mit großem Interesse bewerbe ich mich um einen Ausbildungsplatz als Fachinformatiker in der Fachrichtung Anwendungsentwicklung in Ihrem Unternehmen.
+
+Ich habe mein Bachelorstudium in Computer Science an einer Universität in Afghanistan abgeschlossen. Während meines Studiums konnte ich fundierte Kenntnisse in verschiedenen Programmiersprachen und Technologien erwerben. Insbesondere habe ich praktische Erfahrung mit **Python, JavaScript, Java (Grundkenntnisse), HTML, CSS, MySQL, Git und GitHub** gesammelt. Diese Kenntnisse habe ich sowohl im Rahmen meines Studiums als auch durch eigene Projekte vertieft.
+
+Aktuell besuche ich einen Deutschkurs auf dem **Sprachniveau B2**, den ich voraussichtlich **Ende Juli** abschließen werde. Meine Sprachkenntnisse entwickeln sich kontinuierlich weiter, und ich bin sehr motiviert, mich auch sprachlich in einem praxisnahen Umfeld weiterzuentwickeln.
+
+Ich interessiere mich besonders für die Anwendung und Weiterentwicklung moderner Softwarelösungen und bin überzeugt, dass eine Ausbildung bei Ihnen mir ermöglichen wird, meine technischen Fähigkeiten gezielt auszubauen und gleichzeitig neue praktische Erfahrungen zu sammeln. Ich bin lernbereit, teamorientiert und arbeite strukturiert und verantwortungsbewusst.
+
+Ich würde mich sehr freuen, die Möglichkeit zu bekommen, mich persönlich bei Ihnen vorzustellen. Gerne sende ich Ihnen auf Wunsch meine vollständigen Bewerbungsunterlagen zu.
+
+Mit freundlichen Grüßen
+
+[Dein Name]
