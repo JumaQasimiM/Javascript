@@ -1,5 +1,4 @@
-
-[Dein Name]
+Dein Name]
 [Deine Adresse]
 74626 Bretzfeld
 [Telefonnummer]
@@ -18,6 +17,8 @@ Sehr geehrte Damen und Herren,
 mit großem Interesse habe ich über die Agentur für Arbeit Ihre Ausschreibung für eine Ausbildung zum Fachinformatiker der Fachrichtung Digitale Vernetzung gelesen. Da ich eine starke Leidenschaft für IT und digitale Technologien mitbringe, möchte ich mich hiermit um diesen Ausbildungsplatz bewerben.
 
 Ich habe mein Bachelorstudium in Computer Science in Afghanistan abgeschlossen und lebe derzeit in Bretzfeld. Während meines Studiums habe ich unter anderem ein Projekt zur Gesichtserkennung durchgeführt. Dabei habe ich hauptsächlich mit Python gearbeitet und zusätzlich Kenntnisse in JavaScript, Java und Grundkenntnisse in C++ erworben. Dieses Wissen möchte ich nun durch eine praxisnahe Ausbildung in Deutschland weiter vertiefen.
+
+Ich bin sehr motiviert, eine Ausbildung bei Ihnen zu beginnen. Falls möglich, würde ich mich auch über die Gelegenheit freuen, vorab ein Praktikum bei Ihnen zu absolvieren, um erste praktische Erfahrungen zu sammeln und Ihr Unternehmen besser kennenzulernen.
 
 Besonders die Fachrichtung "Digitale Vernetzung" spricht mich sehr an, da ich großes Interesse an der Verbindung von IT-Systemen, Industrie 4.0 und dem Internet of Things habe. Ihr Unternehmen Magna, als weltweit renommierter Automobilzulieferer, bietet dafür ein hervorragendes Umfeld mit modernen Technologien und vielfältigen Entwicklungsmöglichkeiten.
 
