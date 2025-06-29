@@ -1,30 +1,30 @@
 [Dein Name]
 [Deine Adresse]
-74626 Bretzfeld
+[PLZ Ort]
 [Telefonnummer]
 [E-Mail-Adresse]
 
-Magna PT B.V. & Co. KG
+Schwarz IT KG
 Personalabteilung
-74632 Neuenstein
+74172 Neckarsulm
 
 Bretzfeld, den [Datum]
 
-Bewerbung um einen Ausbildungsplatz als Fachinformatiker – Fachrichtung Digitale Vernetzung ab 01.09.2025
+Bewerbung um einen Ausbildungsplatz als IT-Systemelektroniker ab 01.09.2025
 
 Sehr geehrte Damen und Herren,
 
-mit großem Interesse habe ich über die Agentur für Arbeit Ihre Ausschreibung für eine Ausbildung zum Fachinformatiker der Fachrichtung Digitale Vernetzung gelesen. Da ich eine starke Leidenschaft für IT und digitale Technologien mitbringe, möchte ich mich hiermit um diesen Ausbildungsplatz bewerben.
+über die Plattform azubi.de bin ich auf Ihre Ausschreibung für die Ausbildung zum IT-Systemelektroniker aufmerksam geworden und bewerbe mich hiermit mit großem Interesse für den Ausbildungsbeginn am 01.09.2025.
 
-Ich habe mein Bachelorstudium in Computer Science in Afghanistan abgeschlossen und lebe derzeit in Bretzfeld. Während meines Studiums habe ich unter anderem ein Projekt zur Gesichtserkennung durchgeführt. Dabei habe ich hauptsächlich mit Python gearbeitet und zusätzlich Kenntnisse in JavaScript, Java und Grundkenntnisse in C++ erworben. Dieses Wissen möchte ich nun durch eine praxisnahe Ausbildung in Deutschland weiter vertiefen.
+Ich habe in Afghanistan einen Bachelorabschluss in Computer Science erworben und lebe derzeit in Bretzfeld. Während meines Studiums konnte ich grundlegende praktische Kenntnisse in verschiedenen Bereichen der IT sammeln – unter anderem in einem Projekt zur Gesichtserkennung mit Python. Außerdem habe ich erste Erfahrungen mit JavaScript, Java sowie Grundkenntnisse in C++.
 
-Ich bin sehr motiviert, eine Ausbildung bei Ihnen zu beginnen. Falls möglich, würde ich mich auch über die Gelegenheit freuen, vorab ein Praktikum bei Ihnen zu absolvieren, um erste praktische Erfahrungen zu sammeln und Ihr Unternehmen besser kennenzulernen.
+Der Beruf des IT-Systemelektronikers interessiert mich besonders, da ich gerne technische Systeme einrichte, konfiguriere und Fehler behebe. Die Verbindung von Hardware und Software sowie der direkte Kontakt zu Anwendern spricht mich sehr an. Die Schwarz IT KG, als innovatives Unternehmen mit internationaler Ausrichtung, bietet dafür ein spannendes und professionelles Umfeld.
 
-Besonders die Fachrichtung "Digitale Vernetzung" spricht mich sehr an, da ich großes Interesse an der Verbindung von IT-Systemen, Industrie 4.0 und dem Internet of Things habe. Ihr Unternehmen Magna, als weltweit renommierter Automobilzulieferer, bietet dafür ein hervorragendes Umfeld mit modernen Technologien und vielfältigen Entwicklungsmöglichkeiten.
+Derzeit besuche ich einen B2-Deutschkurs, nachdem ich mein B1-Zertifikat erfolgreich abgeschlossen habe.
 
-Aktuell verfüge ich über Deutschkenntnisse auf dem Niveau B1 und besuche derzeit einen B2-Sprachkurs, um meine Sprachkompetenz weiter zu verbessern.
+Falls möglich, würde ich mich auch über die Gelegenheit freuen, vorab ein kurzes Praktikum bei Ihnen zu absolvieren.
 
-Über die Einladung zu einem Vorstellungsgespräch freue ich mich sehr. Falls für 2025 kein Platz frei ist, freue ich mich auch über eine Chance für 2026.
+Ich freue mich über die Möglichkeit, mich Ihnen in einem persönlichen Gespräch vorzustellen.
 
 Mit freundlichen Grüßen
 [Dein Name]
