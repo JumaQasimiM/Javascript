@@ -47,9 +47,11 @@ header .navbar {
 /* product section */
 .product_list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 1rem;
 	margin: 1rem 0;
+
 }
 
 .product-card {
@@ -168,6 +170,10 @@ header .navbar {
 	width: 80%;
 	margin: 0 auto;
 	padding: 1rem;
+	background-image: url("weather.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* min-height: 100vh; */
 }
 
 /* weather form */
@@ -183,32 +189,41 @@ header .navbar {
 
 .form #btn {
 	background: transparent;
-	color: #333;
+	color: #0fb28c;
 	width: 100px;
 	font-weight: bold;
 	padding: 10px 20px;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: all 0.3s ease;
+	border: 1px solid #0fb28c;
 }
 
 .form #btn:hover {
-	background: #333;
+	background: #0d9599;
 	color: #fff;
 }
 
 .title-weather {
 	text-align: center;
 	color: green;
+	font-family: "Courgette", cursive;
 }
 
 .weather-card {
 
-	padding: 1rem;
+	padding: 2rem;
 	border-radius: 1rem;
 	min-height: 400px;
 	width: 50%;
 	margin: 0 auto;
+	background: rgb(39, 85, 237);
+	opacity: 0.8;
+	backdrop-filter: blur(20px);
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
 }
 
 .desc {
@@ -247,4 +262,16 @@ header .navbar {
 		flex-direction: column;
 	}
 
+}
+
+/* error */
+.err {
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-weight: 600;
+	margin: 0.4 rem 0;
+	background-color: lightcoral;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	font-family: "Courgette", cursive;
 }
