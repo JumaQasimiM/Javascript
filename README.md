@@ -1,6 +1,8 @@
 # JavaScript projects
 > 1. Product page
 > 2. Weather App
+	> [!WARNING]
+	> Urgent info that needs immediate user attention to avoid problems.
 	
 ## free photos link
  1. https://undraw.co/illustrations
