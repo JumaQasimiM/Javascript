@@ -1,6 +1,6 @@
 # JavaScript projects
-> Product page
-> Weather App
+> 1. Product page
+> 2. Weather App
 ## free photos link
  1. https://undraw.co/illustrations
  2. https://storyset.com/
