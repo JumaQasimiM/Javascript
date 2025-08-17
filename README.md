@@ -1,6 +1,8 @@
 # JavaScript projects
 > 1. Product page
 > 2. Weather App
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems
 [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 	
