@@ -173,7 +173,7 @@ header .navbar {
 	background-image: url("weather.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* min-height: 100vh; */
+	min-height: 100vh;
 }
 
 /* weather form */
@@ -274,4 +274,5 @@ header .navbar {
 	padding: 0.5rem;
 	border-radius: 1rem;
 	font-family: "Courgette", cursive;
+
 }
