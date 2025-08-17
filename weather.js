@@ -39,6 +39,7 @@ searchBtn.addEventListener('click', () => {
     )
     .catch(err =>
       console.log('API key is removed!'));
+  document.getElementById('err').innerText ="API key is removed!";
   setTimeout(() => {
 
     document.getElementById('err').innerText = "";
@@ -59,4 +60,5 @@ menubar.addEventListener('click', () => {
   }
 
 })
+
 
