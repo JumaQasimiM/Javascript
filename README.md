@@ -1,7 +1,7 @@
 # Weather Project (Pure JavaScript)
 > [!WARNING]
 > The Openweather API kez has benn **removed** form this project for security reasons.
-> This Project uses plain JavaScript to fetch weather data. To use it, you need to get your own Openweather API key and replace it in the "weather.js" file:
+> This Project uses plain JavaScript to fetch weather data. To use it, you need to get your own Openweather API key and replace it in the `weather.js` file:
 > ``` const apiKey = 'YOUR-API-KEY'; // replace with your API key 
 
 
