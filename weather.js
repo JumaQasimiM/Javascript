@@ -1,4 +1,4 @@
-// read product from api
+// read weather from api
 
 const apiKey = '8df82f3bcf37ccfe82166b9ed9a939b7';
 // const city = 'heilbronn';
@@ -36,21 +36,16 @@ searchBtn.addEventListener('click', () => {
         <h3 class='time'> ${new Date((data.dt + data.timezone) * 1000).toUTCString().replace('GMT', 'UTC')} <h3/>
         </div>
     </div>
-
-
-
-      </div >
-
-
+     </div >
     `
-
     )
     .catch(err =>
-
       console.log('Error :', err));
+  setTimeout(() => {
 
+    document.getElementById('err').innerText = err;
+  }, 2000);
   document.getElementById('weather').innerHTML = '';
-  document.getElementById('err').innerText = 'city not found';
 })
 
 // for menu bar
