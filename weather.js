@@ -25,12 +25,10 @@ searchBtn.addEventListener('click', () => {
      <div id='weather' class='weather-card'>
       <p class='desc'> ${(data.weather[0].description) === "clear sky" ? "🌞" : "🌧️"} </p >
       <p class='temp'> ${data.main.temp} °C <p/>
-
     <div class="info">
        <div class='weather-info-city'>
        <h3 class='city'> ${data.name} <h3/> 
         <h3 class='country'> ${data.sys.country} <h3/> </div>
-
         <div class='weather-info-temp'>
         <p class='temp'> ${data.weather[0].main}  <p/>
         <h3 class='time'> ${new Date((data.dt + data.timezone) * 1000).toUTCString().replace('GMT', 'UTC')} <h3/>
@@ -40,10 +38,10 @@ searchBtn.addEventListener('click', () => {
     `
     )
     .catch(err =>
-      console.log('Error :', err));
+      console.log('API key is removed!'));
   setTimeout(() => {
 
-    document.getElementById('err').innerText = err;
+    document.getElementById('err').innerText = "";
   }, 2000);
   document.getElementById('weather').innerHTML = '';
 })
@@ -61,3 +59,4 @@ menubar.addEventListener('click', () => {
   }
 
 })
+
