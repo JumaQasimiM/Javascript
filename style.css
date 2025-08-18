@@ -351,6 +351,8 @@ canvas {
 
 	.chart-box{
 		width: 100%;
+		height:auto;
 	}
 
 }
+
