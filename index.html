@@ -5,12 +5,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Basic Javascript</title>
-	<link rel="stylesheet" href="style.css">
+
 	<!-- crypto  -->
 
 	<!-- 	Tailwind css CDN -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-	<!--  -->
+	<!-- fonst awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+		integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -27,7 +31,7 @@
 						<li><a href="">Contact</a></li>
 					</ul>
 				</nav>
-				<div class="menu-bar">👇🏾</div>
+				<div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
 			</div>
 		</header>
 
@@ -48,9 +52,14 @@
 				</tbody>
 			</table>
 			<!-- chart -->
-			<div class="chart">
-				<canvas id="criptoChart" class=""></canvas>
-				<canvas id="criptoChartLiner" class=""></canvas>
+			<div class="crypto-chart-contianer">
+				<div class="chart-box">
+					<canvas id="criptoChart" class="crypto-bar" width="400" height="150"></canvas>
+				</div>
+				<div class="chart-box">
+					<canvas id="criptoChartLiner" class="crypto-liner" width="400" height="150"> </canvas>
+				</div>
+
 			</div>
 		</section>
 	</main>
@@ -64,8 +73,9 @@
 	<!-- <script type="module" src="JavaScriptModules/Es6.js"></script> -->
 	<!-- <script src="Promiss/prs.js"></script> -->
 	<!--  <script src="fetach.js"></script> -->
+
 	<!-- 	read form api -->
-	<!-- <script src="product.js"></script> -->
+	<script src="product.js"></script>
 	<!-- chart -->
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<!-- liner crypto chart -->

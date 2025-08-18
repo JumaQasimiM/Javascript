@@ -1,11 +1,11 @@
 
 async function loadData() {
   try {
-    const url = "https://api.ciongecko.com/api/v3/coins/markets?vs_currency=usd&per_page=20";
-    // const url = "https://cors-anywhere.herokuapp.com/https://api.coinpaprika.com/v1/tickers";
+    // const url = "https://api.ciongecko.com/api/v3/coins/markets?vs_currency=usd&per_page=20";
+    const url = "https://api.coinpaprika.com/v1/tickers";
     const res = await fetch(url);
     const data = await res.json();
-    const top20Coin = data.slice(0, 15);
+    const top20Coin = data.slice(0, 5);
 
     // console.log(top20Coin);
     const tableBody = document.querySelector('#CryptoTable tbody');
@@ -66,39 +66,39 @@ async function loadData() {
       }
     });
     // liner chart
-    const ctxLine = document.getElementById('criptoChartLiner').getContext('2d');
-    const dataPoint = prices.map(p => Number(p));
-    const colorPoint = dataPoint.map((price, index, arr) => {
-      if (index === 0) return 'grey'; // first point
-      return price >= arr[index - 1] ? 'green' : 'red';
-    });
+    // const ctxLine = document.getElementById('criptoChartLiner').getContext('2d');
+    // const dataPoint = prices.map(p => Number(p));
+    // const colorPoint = dataPoint.map((price, index, arr) => {
+    //   if (index === 0) return 'grey'; // first point
+    //   return price >= arr[index - 1] ? 'green' : 'red';
+    // });
 
-    new Chart(ctxLine, {
-      type: 'line',
-      data: {
-        labels: labels,
-        datasets: [{
-          label: 'Price in USD',
-          data: dataPoint,
-          backgroundColor: colorPoint,
-          borderColor: colorPoint.map(color => color.replace('0.6', '1')),
-          borderWidth: 1
-        }]
-      },
-      options: {
-        responsive: true,
-        Plugins: {
-          legend: {
-            display: false
-          }
-        },
-        scales: {
-          y: {
+    // new Chart(ctxLine, {
+    //   type: 'line',
+    //   data: {
+    //     labels: labels,
+    //     datasets: [{
+    //       label: 'Price in USD',
+    //       data: dataPoint,
+    //       backgroundColor: colorPoint,
+    //       borderColor: colorPoint.map(color => color.replace('0.6', '1')),
+    //       borderWidth: 1
+    //     }]
+    //   },
+    //   options: {
+    //     responsive: true,
+    //     Plugins: {
+    //       legend: {
+    //         display: false
+    //       }
+    //     },
+    //     scales: {
+    //       y: {
 
-          }
-        }
-      }
-    })
+    //       }
+    //     }
+    //   }
+    // })
     // bar chart ended
     // liner chart started
 
