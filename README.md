@@ -1,70 +1,4 @@
-const ctx = document.getElementById("lineChart").getContext("2d");
-
-const coins = ["bitcoin", "ethereum", "binancecoin", "ripple", "cardano"];
-const colors = ["red", "blue", "green", "orange", "purple"];
-let chart;
-
-async function loadMultiLine() {
-  try {
-    const datasets = [];
-
-    for (let i = 0; i < coins.length; i++) {
-      const res = await fetch(
-        `https://api.coingecko.com/api/v3/coins/${coins[i]}/market_chart?vs_currency=usd&days=30`
-      );
-      const data = await res.json();
-
-      // تاریخ‌ها
-      const labels = data.prices.map(p => new Date(p[0]).toLocaleDateString());
-
-      // قیمت‌ها
-      const prices = data.prices.map(p => p[1]);
-
-      datasets.push({
-        label: coins[i].toUpperCase(),
-        data: prices,
-        borderColor: colors[i],
-        borderWidth: 2,
-        fill: false,
-        tension: 0.3
-      });
-
-      // فقط یک بار labels رو ذخیره می‌کنیم (برای بیت‌کوین)
-      if (i === 0) {
-        window.chartLabels = labels;
-      }
-    }
-
-    if (chart) chart.destroy();
-
-    chart = new Chart(ctx, {
-      type: "line",
-      data: {
-        labels: window.chartLabels,
-        datasets
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: {
-            position: "top"
-          }
-        },
-        scales: {
-          y: {
-            beginAtZero: false
-          }
-        }
-      }
-    });
-
-  } catch (error) {
-    console.error("Error loading data:", error);
-  }
-}
-
-// اجرا
-loadMultiLine();## free photos link
+## free photos link
  1. https://undraw.co/illustrations
  2. https://storyset.com/
 
@@ -121,6 +55,7 @@ JavaScript is prototype-based procedural language, which means it supports both 
 ## Live Demo
 
 [Live Demo](https://jumaqasimim.github.io/Javascript/)
+
 
 
 
