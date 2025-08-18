@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Basic Javascript</title>
 	<link rel="stylesheet" href="style.css">
+	<!-- crypto  -->
+
 	<!-- 	Tailwind css CDN -->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
 	<!--  -->
@@ -29,13 +31,30 @@
 			</div>
 		</header>
 
-		<section class="product1">
-			<div class="product_list" id="product_list">
+		<section class="cripto">
+			<h1>Top 20 Cryptocurrencies</h1>
+			<table id="CryptoTable">
+				<thead>
+					<tr>
+						<th>Rank</th>
+						<th>Name</th>
+						<th>Price (USD)</th>
+						<th>Change (24h)</th>
+						<th>Date</th>
+					</tr>
+				</thead>
+				<tbody>
 
+				</tbody>
+			</table>
+			<!-- chart -->
+			<div class="chart">
+				<canvas id="criptoChart" class=""></canvas>
+				<canvas id="criptoChartLiner" class=""></canvas>
 			</div>
 		</section>
 	</main>
-	<!-- <script src="basic.js"></script> -->
+	<!-- <script src=" basic.js"></script> -->
 	<!-- <script src="functions.js"></script> -->
 	<!-- <script src="object.js"></script> -->
 	<!-- <script src="script.js"></script> -->
@@ -46,7 +65,13 @@
 	<!-- <script src="Promiss/prs.js"></script> -->
 	<!--  <script src="fetach.js"></script> -->
 	<!-- 	read form api -->
-	<script src="product.js"></script>
+	<!-- <script src="product.js"></script> -->
+	<!-- chart -->
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<!-- liner crypto chart -->
+	<!-- <script src="linerchartCrypto.js"></script> -->
+
+	<script src="crypto.js"></script>
 </body>
 
 </html>
