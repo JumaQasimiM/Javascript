@@ -30,7 +30,7 @@ async function loadMultiLine() {
         label: coins[i].toUpperCase(),
         data: prices,
         borderColor: colors[i],
-        borderWidth: 0.5,
+        borderWidth: 0.2,
         fill: false,
         tension: 0.2
       });
@@ -71,3 +71,4 @@ loadMultiLine();
 
 
 // // setInterval(loadCrypto, 60000);
+
