@@ -345,12 +345,12 @@ canvas {
 
 
 @media (max-width: 600px) {
-	.chart {
+	.crypto-chart-contianer {
 		flex-direction: column;
 	}
 
-	.liner,
-	.bar {
+	.chart-box{
 		width: 100%;
 	}
+
 }
