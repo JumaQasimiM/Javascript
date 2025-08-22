@@ -43,7 +43,7 @@ searchBtn.addEventListener('click', () => {
       console.log('Error :', err));
   setTimeout(() => {
 
-    document.getElementById('err').innerText = err;
+    document.getElementById('err').innerText = 'API key has been removed';
   }, 2000);
   document.getElementById('weather').innerHTML = '';
 })
@@ -55,8 +55,8 @@ menubar.addEventListener('click', () => {
   const ul = document.querySelector('ul');
   ul.classList.toggle('open');
   if (ul.classList.contains('open')) {
-    menubar.innerHTML = '👆🏾';
+    menubar.innerHTML = <i class="fa-solid fa-xmark"></i>;
   } else {
-    menubar.innerHTML = '👇🏾';
+    menubar.innerHTML = <i class="fa-solid fa-bars"></i>;
   }
 })

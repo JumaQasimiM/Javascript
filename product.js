@@ -23,7 +23,7 @@ function displayProducts(products) {
  
    <div id='product' class='product-card'>
       <img src = "${product.image}" class='img'>
-      <h3 class='title'> ${product.name} <h3/> 
+      <h3 class='title'> ${product.title} <h3/> 
       <p class='price'> ${product.price} $</p>
       <button class='btn'>Add to Cart</button>
     </div>

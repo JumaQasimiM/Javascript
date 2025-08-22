@@ -142,6 +142,18 @@ header .navbar {
 	}
 }
 
+.product1 {
+	margin: 1rem 0;
+}
+
+.product1 h1 {
+	text-align: center;
+	color: green;
+	font-family: "Courgette", cursive;
+	border-bottom: 2px solid green;
+	padding: 0 0 0.5rem 0;
+}
+
 @media (max-width: 820px) {
 	.product_list {
 		flex-direction: column;
@@ -343,16 +355,26 @@ canvas {
 	height: 100% !important;
 }
 
+.cripto {
+	min-height: 100vh;
+	margin: 1rem 1rem;
+}
 
-@media (max-width: 600px) {
+@media (max-width: 850px) {
 	.crypto-chart-contianer {
 		flex-direction: column;
 	}
 
-	.chart-box{
-		width: 100%;
-		height:auto;
+	.crypto-chart-contianer .chart-box {
+		max-width: 98%;
+		margin: 0 auto;
+		height: 500px;
+
 	}
 
-}
+	canvas {
+		width: 100% !important;
+		height: 100% !important;
 
+	}
+}
