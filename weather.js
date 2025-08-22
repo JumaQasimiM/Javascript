@@ -1,6 +1,6 @@
 // read weather from api
 
-const apiKey = '8df82f3bcf37ccfe82166b9ed9a939b7';
+const apiKey = '';
 // const city = 'heilbronn';
 
 const searchBtn = document.getElementById('btn');
@@ -59,4 +59,5 @@ menubar.addEventListener('click', () => {
   } else {
     menubar.innerHTML = <i class="fa-solid fa-bars"></i>;
   }
+
 })
