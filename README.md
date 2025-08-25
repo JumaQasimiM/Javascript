@@ -1,12 +1,12 @@
 ### Working Desktop-first
 ### this Project is just for lernen
  >project pages
->1. Home
->    show crypto currency in table and show in chart using chart.js
->2. Weather page
->    fetch data form Openweather API
+>1. Home :
+>    show crypto currency in table and show in chart using `chart.js`
+>2. Weather :
+>    fetch data form `Openweather` API
 >   for use you have to add your own API KEY
->3. Product
+>3. Product:
 >    Show products and  fetch form Api
 >    this is resposive for Mobile and computer 
 
@@ -67,6 +67,7 @@ JavaScript is prototype-based procedural language, which means it supports both 
 ## Live Demo
 
 [Live Demo](https://jumaqasimim.github.io/Javascript/)
+
 
 
 
