@@ -1,4 +1,5 @@
 // read weather from api
+// use your Api key 
 
 const apiKey = '';
 // const city = 'heilbronn';
@@ -61,3 +62,4 @@ menubar.addEventListener('click', () => {
   }
 
 })
+
