@@ -1,88 +1,193 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic Javascript</title>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Basic Javascript</title>
+    <!-- 	Tailwind css CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fonst awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-	<!-- crypto  -->
+  <body class="bg-gradient-to-r from-green-100 to-green-200">
+    <main class="contianer">
+      <header>
+        <div
+          class="navbar bg-gradient-to-r from-red-400 to-orange-400 rounded-tl-[10px] rounded-tr-[10px]"
+        >
+          <div class="logo">JAVASCRIPT</div>
+          <nav>
+            <ul class="text-2xl">
+              <li class="cursor-pointer"><a href="index.html">Home</a></li>
+              <li class="cursor-pointer"><a href="">About</a></li>
+              <li class="cursor-pointer"><a href="">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="">
+            <button
+              class="text-xl cursor-pointer w-20 py-4 hover:text-white transition"
+            >
+              Login
+            </button>
+          </div>
+          <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </header>
+      <!-- hero section -->
+      <section
+        class="hero grid grid-cols-2 border w-full md:w-full h-150 bg-no-repeat bg-cover rounded-bl-[10px] rounded-br-[10px]"
+        style="background-image: url('images/hero.jpg')"
+      >
+        <div class="text-4xl text-white">
+          <h1>Hello</h1>
+        </div>
+        <div class="text-4xl text-white">
+          <h1>HI</h1>
+        </div>
+      </section>
+      <!-- Popular Technologies Marquee section-->
+      <section class="marquee flex gap-5" style="margin: 1rem 0">
+        <div
+          class="border w-50 h-20 flex items-center justify-center bg-red-400 m-3"
+        >
+          JavaScript
+        </div>
+        <div
+          class="border w-50 h-20 flex items-center justify-center bg-red-400 m-3"
+        >
+          HTML5
+        </div>
+        <div
+          class="border w-50 h-20 flex items-center justify-center bg-red-400 m-3"
+        >
+          Tailwind
+        </div>
+        <div
+          class="border w-50 h-20 flex items-center justify-center bg-red-400 m-3"
+        >
+          CSS3
+        </div>
+        <div
+          class="border w-50 h-20 flex items-center justify-center bg-red-400 m-3"
+        >
+          API
+        </div>
+        <div
+          class="border w-50 h-20 flex items-center justify-center bg-red-400 m-3"
+        >
+          Chart js
+        </div>
+      </section>
+      <!-- popular project section -->
+      <section class="" style="margin-top: 30px; margin-bottom: 30px">
+        <h1 class="text-center text-2xl font-semibold" style="margin: 15px 0">
+          Popular Project
+        </h1>
 
-	<!-- 	Tailwind css CDN -->
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-	<!-- fonst awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-		integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="style.css">
-</head>
+        <div class="grid grid-cols-4 gap-5">
+          <!-- first project -->
+          <div class="project-card flex flex-col border">
+            <!-- image -->
+            <img src="images/hero.jpg" alt="" class="hover:" />
+            <!-- title & description -->
+            <h4 class="text-2xl text-center font-semibold">Weather App</h4>
+            <p class="text-xl text-center">
+              Weather App using JavaScript and WeatherOpen Api
+            </p>
+            <!-- btn -->
+            <div class="flex justify-around items-center gap-10">
+              <button class="border rounded cursor-pointer m-3">Demo</button>
+              <button class="border rounded cursor-pointer m-3">GitHub</button>
+            </div>
+          </div>
+          <!-- first project -->
+          <div class="project-card flex flex-col border">
+            <!-- image -->
+            <img src="images/hero.jpg" alt="" class="hover:" />
+            <!-- title & description -->
+            <h4 class="text-2xl text-center font-semibold">Weather App</h4>
+            <p class="text-xl text-center">
+              Weather App using JavaScript and WeatherOpen Api
+            </p>
+            <!-- btn -->
+            <div class="flex justify-around items-center gap-10">
+              <button class="border rounded cursor-pointer m-3">Demo</button>
+              <button class="border rounded cursor-pointer m-3">GitHub</button>
+            </div>
+          </div>
+          <!-- first project -->
+          <div class="project-card flex flex-col border">
+            <!-- image -->
+            <img src="images/hero.jpg" alt="" class="hover:" />
+            <!-- title & description -->
+            <h4 class="text-2xl text-center font-semibold">Weather App</h4>
+            <p class="text-xl text-center">
+              Weather App using JavaScript and WeatherOpen Api
+            </p>
+            <!-- btn -->
+            <div class="flex justify-around items-center gap-10">
+              <button class="border rounded cursor-pointer m-3">Demo</button>
+              <button class="border rounded cursor-pointer m-3">GitHub</button>
+            </div>
+          </div>
+          <!-- first project -->
+          <div class="project-card flex flex-col border">
+            <!-- image -->
+            <img src="images/hero.jpg" alt="" class="hover:" />
+            <!-- title & description -->
+            <h4 class="text-2xl text-center font-semibold">Weather App</h4>
+            <p class="text-xl text-center">
+              Weather App using JavaScript and WeatherOpen Api
+            </p>
+            <!-- btn -->
+            <div class="flex justify-around items-center gap-10">
+              <button class="border rounded cursor-pointer m-3">Demo</button>
+              <button class="border rounded cursor-pointer m-3">GitHub</button>
+            </div>
+          </div>
+          <!-- first project -->
+          <div class="project-card flex flex-col border">
+            <!-- image -->
+            <img src="images/hero.jpg" alt="" class="hover:" />
+            <!-- title & description -->
+            <h4 class="text-2xl text-center font-semibold">Weather App</h4>
+            <p class="text-xl text-center">
+              Weather App using JavaScript and WeatherOpen Api
+            </p>
+            <!-- btn -->
+            <div class="flex justify-around items-center gap-10">
+              <button class="border rounded cursor-pointer m-3">Demo</button>
+              <button class="border rounded cursor-pointer m-3">GitHub</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- <script src=" basic.js"></script> -->
+    <!-- <script src="functions.js"></script> -->
+    <!-- <script src="object.js"></script> -->
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="class.js"></script> -->
+    <!-- <script src="classInhretanc.js"></script> -->
+    <!-- <script src="JavaScriptModules/commonjs.js"></script> -->
+    <!-- <script type="module" src="JavaScriptModules/Es6.js"></script> -->
+    <!-- <script src="Promiss/prs.js"></script> -->
+    <!--  <script src="fetach.js"></script> -->
 
-<body>
-	<main class="contianer">
-		<header>
-			<div class="navbar">
-				<div class="logo">JAVASCRIPT</div>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="product.html">Product</a></li>
-						<li><a href="wether.html">Weather Today</a></li>
-						<li><a href="">About</a></li>
-						<li><a href="">Contact</a></li>
-					</ul>
-				</nav>
-				<div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
-			</div>
-		</header>
+    <!-- 	read form api -->
+    <script src="product.js"></script>
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-		<section class="cripto">
-			<h1>Top 20 Cryptocurrencies</h1>
-			<table id="CryptoTable">
-				<thead>
-					<tr>
-						<th>Rank</th>
-						<th>Name</th>
-						<th>Price (USD)</th>
-						<th>Change (24h)</th>
-						<th>Date</th>
-					</tr>
-				</thead>
-				<tbody>
-
-				</tbody>
-			</table>
-			<!-- chart -->
-			<div class="crypto-chart-contianer">
-				<div class="chart-box">
-					<canvas id="criptoChart" class="crypto-bar" width="400" height="150"></canvas>
-				</div>
-				<div class="chart-box">
-					<canvas id="criptoChartLiner" class="crypto-liner" width="400" height="150"> </canvas>
-				</div>
-
-			</div>
-		</section>
-	</main>
-	<!-- <script src=" basic.js"></script> -->
-	<!-- <script src="functions.js"></script> -->
-	<!-- <script src="object.js"></script> -->
-	<!-- <script src="script.js"></script> -->
-	<!-- <script src="class.js"></script> -->
-	<!-- <script src="classInhretanc.js"></script> -->
-	<!-- <script src="JavaScriptModules/commonjs.js"></script> -->
-	<!-- <script type="module" src="JavaScriptModules/Es6.js"></script> -->
-	<!-- <script src="Promiss/prs.js"></script> -->
-	<!--  <script src="fetach.js"></script> -->
-
-	<!-- 	read form api -->
-	<script src="product.js"></script>
-	<!-- chart -->
-	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-	<!-- liner crypto chart -->
-	<script src="linerchartCrypto.js"></script>
-
-	<script src="crypto.js"></script>
-</body>
-
-
+    <script src="crypto.js"></script>
+  </body>
 </html>

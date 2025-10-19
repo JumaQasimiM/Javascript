@@ -1,380 +1,368 @@
 /* for logo */
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* for content */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .contianer {
-	max-width: 1200px;
-	margin: 0 auto;
-	font-family: "IBM Plex Sans Condensed", sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
 }
 
 /* header */
 header .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 1rem 0;
-	position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .navbar .logo {
-	font-size: 2rem;
-	font-weight: 600;
-	font-family: "Courgette", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Courgette", cursive;
 }
 
 .navbar ul {
-	display: flex;
-	align-items: center;
-	list-style: none;
-	gap: 1rem;
-	transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  transition: all 0.3s ease;
 }
 
 .navbar ul li a {
-	text-decoration: none;
-	color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 /* product section */
 .product_list {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	gap: 1rem;
-	margin: 1rem 0;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0;
 }
 
 .product-card {
-	border: 1px solid #000;
-	padding: 1rem;
-	border-radius: 1rem;
-	min-height: 400px;
+  border: 1px solid #000;
+  padding: 1rem;
+  border-radius: 1rem;
+  min-height: 400px;
 }
 
 .product .img {
-	width: 239px;
-	height: 239px;
+  width: 239px;
+  height: 239px;
 }
 
 .title {
-	margin: 10px 0;
-
+  margin: 10px 0;
 }
 
 .product-card .price {
-	font-weight: bold;
-	text-align: center;
-	margin: 10px 0;
-	color: green;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+  color: green;
 }
 
 .product .btn {
-	background: transparent;
-	color: #333;
-	width: 100%;
-	font-weight: bold;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: all 0.3s ease;
+  background: transparent;
+  color: #333;
+  width: 100%;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .product .btn:hover {
-	background: #333;
-	color: #fff;
+  background: #333;
+  color: #fff;
 }
 
 .navbar .menu-bar {
-	display: none;
+  display: none;
 }
 
 .navbar ul.open {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: absolute;
-	top: 5rem;
-	right: 10px;
-	background-color: #000;
-	opacity: 0.8;
-	width: 100%;
-	backdrop-filter: blur(20px);
-	border-radius: 10px;
-	padding: 1rem 0
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 5rem;
+  right: 10px;
+  background-color: #000;
+  opacity: 0.8;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 1rem 0;
 }
 
 .navbar ul.open li a {
-	color: #fff;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
-	header .navbar {
-		margin: 0.5rem 1rem;
-	}
+  header .navbar {
+    margin: 0.5rem 1rem;
+  }
 
-	.navbar ul {
-		display: none;
-	}
+  .navbar ul {
+    display: none;
+  }
 
-	.navbar .menu-bar {
-		font-size: 2rem;
-		display: block;
-		cursor: pointer;
-	}
+  .navbar .menu-bar {
+    font-size: 2rem;
+    display: block;
+    cursor: pointer;
+  }
 
-	.product_list {
-		flex-direction: column;
-	}
+  .product_list {
+    flex-direction: column;
+  }
 
-	.product-card {
-		width: 100%;
-		margin: 0 1rem;
-	}
+  .product-card {
+    width: 100%;
+    margin: 0 1rem;
+  }
 }
 
 .product1 {
-	margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .product1 h1 {
-	text-align: center;
-	color: green;
-	font-family: "Courgette", cursive;
-	border-bottom: 2px solid green;
-	padding: 0 0 0.5rem 0;
+  text-align: center;
+  color: green;
+  font-family: "Courgette", cursive;
+  border-bottom: 2px solid green;
+  padding: 0 0 0.5rem 0;
 }
 
 @media (max-width: 820px) {
-	.product_list {
-		flex-direction: column;
-	}
+  .product_list {
+    flex-direction: column;
+  }
 
-	.product-card {
-		align-items: center;
-		justify-content: center;
-		width: 70%;
-		margin: 0 auto;
-	}
-
+  .product-card {
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 /* Weather Page section */
 .weather {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	margin: 1rem 0;
-	position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  position: relative;
 }
 
 .contianer-weather {
-	border: 1px solid #000;
-	width: 80%;
-	margin: 0 auto;
-	padding: 1rem;
-	background-image: url("weather.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	/* min-height: 100vh; */
+  border: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-image: url("weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* min-height: 100vh; */
 }
 
 /* weather form */
 .form #city {
-	width: 100%;
-	padding: 10px 20px;
-	margin: 8px 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .form #btn {
-	background: transparent;
-	color: #0fb28c;
-	width: 100px;
-	font-weight: bold;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: all 0.3s ease;
-	border: 1px solid #0fb28c;
+  background: transparent;
+  color: #0fb28c;
+  width: 100px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #0fb28c;
 }
 
 .form #btn:hover {
-	background: #0d9599;
-	color: #fff;
+  background: #0d9599;
+  color: #fff;
 }
 
 .title-weather {
-	text-align: center;
-	color: green;
-	font-family: "Courgette", cursive;
+  text-align: center;
+  color: green;
+  font-family: "Courgette", cursive;
 }
 
 .weather-card {
-
-	padding: 2rem;
-	border-radius: 1rem;
-	min-height: 400px;
-	width: 50%;
-	margin: 0 auto;
-	background: rgb(39, 85, 237);
-	opacity: 0.8;
-	backdrop-filter: blur(20px);
-	display: flex;
-	flex-direction: column;
-	/* justify-content: center; */
-	/* align-items: center; */
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 400px;
+  width: 50%;
+  margin: 0 auto;
+  background: rgb(39, 85, 237);
+  opacity: 0.8;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .desc {
-	text-align: center;
-	font-size: 5rem;
-	font-weight: 600;
-	margin: -1rem 0 0 0;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  margin: -1rem 0 0 0;
 }
 
 .temp {
-	text-align: center;
+  text-align: center;
 }
 
 .info {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
 }
 
 .weather-info-city h3 {
-	margin: 1rem 0;
+  margin: 1rem 0;
 }
 
-
 .weather-info-temp h3 {
-	margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 @media (max-width: 600px) {
-	.weather-card {
-		width: 100%;
-	}
+  .weather-card {
+    width: 100%;
+  }
 
-	.info {
-		flex-direction: column;
-	}
-
+  .info {
+    flex-direction: column;
+  }
 }
 
 /* error */
 .err {
-	color: rgb(0, 0, 0);
-	text-align: center;
-	font-weight: 600;
-	margin: 0.4 rem 0;
-	background-color: lightcoral;
-	padding: 0.5rem;
-	border-radius: 1rem;
-	font-family: "Courgette", cursive;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 600;
+  margin: 0.4 rem 0;
+  background-color: lightcoral;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-family: "Courgette", cursive;
 }
-
 
 /* Crypto section */
 
-
-
 .cripto h1 {
-	text-align: center;
-	color: green;
-	font-family: "Courgette", cursive;
-	border-bottom: 2px solid green;
-	padding: 0 0 0.5rem 0;
-
+  text-align: center;
+  color: green;
+  font-family: "Courgette", cursive;
+  border-bottom: 2px solid green;
+  padding: 0 0 0.5rem 0;
 }
 
 table {
-	overflow-x: auto;
-	margin: 1rem 0;
-	width: 100%;
-	border-collapse: collapse;
-
+  overflow-x: auto;
+  margin: 1rem 0;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .name {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 th,
 td {
-	padding: 8px;
-	text-align: left;
-	border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
 tr:hover {
-	background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .positive {
-	color: green;
-	font-size: bold;
-	content: '👍';
+  color: green;
+  font-size: bold;
+  content: "👍";
 }
 
 .negative {
-	color: red;
-	font-size: bold;
+  color: red;
+  font-size: bold;
 }
 
 /* chart */
 .crypto-chart-contianer {
-	max-width: 1200px;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .chart-box {
-	flex: 1;
-	max-width: 50%;
+  flex: 1;
+  max-width: 50%;
 }
 
 canvas {
-	width: 100% !important;
-	height: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .cripto {
-	min-height: 100vh;
-	margin: 1rem 1rem;
+  min-height: 100vh;
+  margin: 1rem 1rem;
 }
 
 @media (max-width: 850px) {
-	.crypto-chart-contianer {
-		flex-direction: column;
-	}
+  .crypto-chart-contianer {
+    flex-direction: column;
+  }
 
-	.crypto-chart-contianer .chart-box {
-		max-width: 98%;
-		margin: 0 auto;
-		height: 500px;
+  .crypto-chart-contianer .chart-box {
+    max-width: 98%;
+    margin: 0 auto;
+    height: 500px;
+  }
 
-	}
-
-	canvas {
-		width: 100% !important;
-		height: 100% !important;
-
-	}
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
