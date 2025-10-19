@@ -153,6 +153,38 @@ header .navbar {
   padding: 0 0 0.5rem 0;
 }
 
+/* marquee for technologies  */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.animate-technologies-marquee {
+  display: inline-flex;
+  animation: marquee 10s linear infinite;
+}
+/* marquee */
+
+.marquee {
+  overflow: hidden;
+}
+.marquee__content {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 @media (max-width: 820px) {
   .product_list {
     flex-direction: column;
