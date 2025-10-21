@@ -4,8 +4,8 @@ const Person ={
 	// getter --> access property
 	/* add get or set key word befor function name */ 
 	// setter -- change or set value
-	name:'Juma',
-	lastName:'qasimi',
+	name:'Qali',
+	lastName:'qasilmf',
 	get fullName(){
 		return `${Person.name} ${Person.lastName}`;
 	},
