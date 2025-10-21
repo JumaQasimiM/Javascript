@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic Javascript</title>
+    <!-- 	Tailwind css CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fonst awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <main class="contianer">
+      <!-- Header -->
+      <header>
+        <div
+          class="navbar bg-[#ff6b6b] rounded-tl-[10px] rounded-tr-[10px] text-white"
+        >
+          <div class="logo">JAVASCRIPT</div>
+          <nav class="">
+            <ul class="text-2xl">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="">
+            <button
+              class="text-xl cursor-pointer w-20 py-4 hover:text-white transition"
+            >
+              Login
+            </button>
+          </div>
+          <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </header>
+      <section class="product1">
+        <h1>Product List fetched from API</h1>
+        <div class="product_list" id="product_list"></div>
+      </section>
+      <!-- footer -->
+      <footer
+        class="bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-bl-[10px] rounded-br-[10px]"
+        style="padding: 20px 0; margin-top: 15px"
+      >
+        <div
+          class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6"
+          style="padding: 0px 20px"
+        >
+          <!-- Logo or Brand Name -->
+          <div class="text-2xl font-bold uppercase tracking-wide">
+            JavaScript
+          </div>
+
+          <!-- Footer Navigation Links -->
+          <ul class="flex gap-6 text-base md:text-lg font-medium">
+            <li>
+              <a href="../index.html" class="hover:underline transition"
+                >Home</a
+              >
+            </li>
+            <li><a href="#" class="hover:underline transition">About</a></li>
+            <li><a href="#" class="hover:underline transition">Contact</a></li>
+          </ul>
+
+          <!-- Social Icons -->
+          <div class="flex gap-5 text-xl md:text-2xl">
+            <a href="#" class="hover:text-blue-200 transition"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" class="hover:text-gray-200 transition"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="#" class="hover:text-blue-300 transition"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="hover:text-red-300 transition"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Bottom Line -->
+        <div
+          class="text-center text-sm text-white/90 mt-6 border-t border-white/30 pt-4"
+          style="padding-top: 30px; margin-top: 40px"
+        >
+          &copy; 2025 <span class="font-semibold">JavaScript</span>. All rights
+          reserved.
+        </div>
+      </footer>
+    </main>
+    <!-- 	read form api -->
+    <script src="../product.js"></script>
+  </body>
+</html>

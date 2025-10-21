@@ -8,7 +8,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --navbar-bg: #ff6b6b;
+}
 
+body {
+  scroll-behavior: smooth;
+}
 .contianer {
   max-width: 1300px;
   margin: 0 auto;
@@ -42,7 +48,29 @@ header .navbar {
 
 .navbar ul li a {
   text-decoration: none;
-  color: #000;
+  cursor: pointer;
+  /* color: #000; */
+}
+/* hero section -- hero animation */
+
+@keyframes popup {
+  0% {
+    transform: translate(-50%, 60px) scale(0.8);
+    opacity: 0;
+  }
+  60% {
+    transform: translate(-50%, -5px) scale(1.05);
+    opacity: 1;
+    /*  */
+  }
+  100% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 1;
+    /*  */
+  }
+}
+.animate_popup {
+  animation: popup 2s ease-in-out forwards;
 }
 
 /* product section */

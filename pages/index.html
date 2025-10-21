@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic Javascript</title>
+
+    <!-- 	Tailwind css CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fonst awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body class="bg-gradient-to-r from-green-100 to-green-200">
+    <main class="contianer">
+      <!-- Header -->
+      <header>
+        <div
+          class="navbar bg-[#ff6b6b] rounded-tl-[10px] rounded-tr-[10px] text-white"
+        >
+          <div class="logo">JAVASCRIPT</div>
+          <nav class="">
+            <ul class="text-2xl">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="">
+            <button
+              class="text-xl cursor-pointer w-20 py-4 hover:text-white transition"
+            >
+              Login
+            </button>
+          </div>
+          <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+        </div>
+      </header>
+      <!-- hero section -->
+      <section
+        class="relative overflow-visible hero flex justify-center items-center h-[600px] rounded-bl-[10px] rounded-br-[10px]"
+        style="background: linear-gradient(183deg, #ff6b6b, #00c9ff)"
+      >
+        <!-- first div -->
+        <div
+          class="flex flex-col justify-center items-center h-screen p-8 text-white text-center rounded-lg m-6"
+        >
+          <!-- Text section -->
+          <h1
+            class="text-2xl md:text-4xl md:text-5xl font-bold text-slate-200"
+            style="margin: 10px 0px"
+          >
+            Bringing Code to Life with JavaScript
+          </h1>
+          <p
+            class="text-xl mb-6 font-semibold text-slate-600"
+            style="margin: 10px 0px"
+          >
+            Dive into my portfolio of creative, functional, and responsive
+            projects.
+          </p>
+          <a
+            href="#projects"
+            class="bg-[#ff6b6b] hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 shadow-lg"
+            style="padding: 10px 25px; margin: 10px 0"
+          >
+            View Projects
+          </a>
+        </div>
+        <!-- popip section -->
+        <div
+          class="animate_popup absolute -bottom-6 left-1/2 -translate-x-1/3 w-1/3 h-24 flex justify-center items-center rounded bg-white shadow-lg"
+        >
+          <span class="font-semibold text-gray-800"
+            >Hi, I'm Juma Qasimi a Web developer.</span
+          >
+          <a
+            href="https://www.linkedin.com/in/mohammad-qasimi"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-[#ff6b6b] text-white rounded-xl font-semibold hover:bg-[#ff5252] transition cursor-pointer"
+            style="padding: 2px 10px; margin: 0px 10px"
+          >
+            My Linkedin
+          </a>
+        </div>
+      </section>
+      <!-- Popular Technologies Marquee section-->
+      <section class="overflow-hidden flex gap-5" style="margin: 2.5rem 0">
+        <!-- <div class="flex whitespace-nowrap animate-technologies-marquee gap-10"> -->
+        <div class="marquee">
+          <div class="marquee__content gap-10">
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-orange-500 m-3 text-white font-semibold rounded"
+            >
+              HTML5
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-blue-500 m-3 text-white font-semibold rounded"
+            >
+              CSS3
+            </div>
+            <div
+              class="w-50 h-20 flex items-center justify-center bg-yellow-400 m-3 text-black font-semibold rounded"
+            >
+              JavaScript
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-cyan-500 m-3 text-white font-semibold rounded"
+            >
+              Tailwind
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-sky-600 m-3 text-white font-semibold rounded"
+            >
+              React
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-green-600 m-3 text-white font-semibold rounded"
+            >
+              Node.js
+            </div>
+
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-green-600 m-3 text-white font-semibold rounded"
+            >
+              API
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-yellow-600 m-3 text-white font-semibold rounded"
+            >
+              Chart js
+            </div>
+            <!-- copy -->
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-orange-500 m-3 text-white font-semibold rounded"
+            >
+              HTML5
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-blue-500 m-3 text-white font-semibold rounded"
+            >
+              CSS3
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-yellow-400 m-3 text-black font-semibold rounded"
+            >
+              JavaScript
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-cyan-500 m-3 text-white font-semibold rounded"
+            >
+              Tailwind
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-sky-600 m-3 text-white font-semibold rounded"
+            >
+              React
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-green-600 m-3 text-white font-semibold rounded"
+            >
+              Node.js
+            </div>
+
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-green-600 m-3 text-white font-semibold rounded"
+            >
+              API
+            </div>
+            <div
+              class="border w-50 h-20 flex items-center justify-center bg-yellow-600 m-3 text-white font-semibold rounded"
+            >
+              Chart js
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- popular project section -->
+      <section
+        id="projects"
+        class="bg-gray-100 text-gray-800"
+        style="
+          padding-left: 40px;
+          padding-right: 40px;
+          padding-top: 60px;
+          padding-bottom: 60px;
+        "
+      >
+        <h1 class="text-center text-4xl font-bold" style="margin-bottom: 60px">
+          Featured Projects
+        </h1>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12"
+        >
+          <!-- Start of Card -->
+          <div
+            class="bg-white rounded-[20px] shadow-xl transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl relative overflow-hidden group"
+            style="margin-bottom: 30px"
+          >
+            <!-- Image -->
+            <div style="overflow: hidden">
+              <img
+                src="../images/4th.jpg"
+                alt="Weather App"
+                class="w-full"
+                style="
+                  height: 220px;
+                  object-fit: cover;
+                  transition: transform 0.5s ease;
+                "
+                onmouseover="this.style.transform='scale(1.07)'"
+                onmouseout="this.style.transform='scale(1)'"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="text-center" style="padding: 30px 20px">
+              <h2
+                class="text-2xl font-semibold text-gray-900"
+                style="margin-bottom: 14px"
+              >
+                Weather App
+              </h2>
+              <p
+                class="text-gray-600"
+                style="font-size: 16px; margin-bottom: 30px"
+              >
+                A beautiful weather application built with JavaScript and
+                OpenWeather API.
+              </p>
+
+              <!-- CTA Button appears on hover -->
+              <div
+                class="absolute bottom-6 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              >
+                <a
+                  href="wether.html"
+                  class="bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300"
+                  style="
+                    padding: 10px 28px;
+                    font-size: 14px;
+                    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                  "
+                >
+                  View Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+          <!-- Start of Card -->
+          <div
+            class="bg-white rounded-[20px] shadow-xl transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl relative overflow-hidden group"
+            style="margin-bottom: 30px"
+          >
+            <!-- Image -->
+            <div style="overflow: hidden">
+              <img
+                src="../images/hero.jpg"
+                alt="Weather App"
+                class="w-full"
+                style="
+                  height: 220px;
+                  object-fit: cover;
+                  transition: transform 0.5s ease;
+                "
+                onmouseover="this.style.transform='scale(1.07)'"
+                onmouseout="this.style.transform='scale(1)'"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="text-center" style="padding: 30px 20px">
+              <h2
+                class="text-2xl font-semibold text-gray-900"
+                style="margin-bottom: 14px"
+              >
+                Weather App
+              </h2>
+              <p
+                class="text-gray-600"
+                style="font-size: 16px; margin-bottom: 30px"
+              >
+                A beautiful weather application built with JavaScript and
+                OpenWeather API.
+              </p>
+
+              <!-- CTA Button appears on hover -->
+              <div
+                class="absolute bottom-6 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              >
+                <a
+                  href="currency_converter.html"
+                  class="bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300"
+                  style="
+                    padding: 10px 28px;
+                    font-size: 14px;
+                    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                  "
+                >
+                  View Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+          <!-- Start of Card -->
+          <div
+            class="bg-white rounded-[20px] shadow-xl transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl relative overflow-hidden group"
+            style="margin-bottom: 30px"
+          >
+            <!-- Image -->
+            <div style="overflow: hidden">
+              <img
+                src="../images/hero-bg.jpg"
+                alt="Weather App"
+                class="w-full"
+                style="
+                  height: 220px;
+                  object-fit: cover;
+                  transition: transform 0.5s ease;
+                "
+                onmouseover="this.style.transform='scale(1.07)'"
+                onmouseout="this.style.transform='scale(1)'"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="text-center" style="padding: 30px 20px">
+              <h2
+                class="text-2xl font-semibold text-gray-900"
+                style="margin-bottom: 14px"
+              >
+                Weather App
+              </h2>
+              <p
+                class="text-gray-600"
+                style="font-size: 16px; margin-bottom: 30px"
+              >
+                A beautiful weather application built with JavaScript and
+                OpenWeather API.
+              </p>
+
+              <!-- CTA Button appears on hover -->
+              <div
+                class="absolute bottom-6 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              >
+                <a
+                  href="crypto.html"
+                  class="bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300"
+                  style="
+                    padding: 10px 28px;
+                    font-size: 14px;
+                    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                  "
+                >
+                  View Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+          <!-- Start of Card -->
+          <div
+            class="bg-white rounded-[20px] shadow-xl transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl relative overflow-hidden group"
+            style="margin-bottom: 30px"
+          >
+            <!-- Image -->
+            <div style="overflow: hidden">
+              <img
+                src="../images/3th.jpg"
+                alt="Weather App"
+                class="w-full"
+                style="
+                  height: 220px;
+                  object-fit: cover;
+                  transition: transform 0.5s ease;
+                "
+                onmouseover="this.style.transform='scale(1.07)'"
+                onmouseout="this.style.transform='scale(1)'"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="text-center" style="padding: 30px 20px">
+              <h2
+                class="text-2xl font-semibold text-gray-900"
+                style="margin-bottom: 14px"
+              >
+                Weather App
+              </h2>
+              <p
+                class="text-gray-600"
+                style="font-size: 16px; margin-bottom: 30px"
+              >
+                A beautiful weather application built with JavaScript and
+                OpenWeather API.
+              </p>
+
+              <!-- CTA Button appears on hover -->
+              <div
+                class="absolute bottom-6 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              >
+                <a
+                  href="product.html"
+                  class="bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300"
+                  style="
+                    padding: 10px 28px;
+                    font-size: 14px;
+                    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                  "
+                >
+                  View Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+          <!-- Start of Card -->
+          <div
+            class="bg-white rounded-[20px] shadow-xl transition-transform duration-300 hover:-translate-y-3 hover:shadow-2xl relative overflow-hidden group"
+            style="margin-bottom: 30px"
+          >
+            <!-- Image -->
+            <div style="overflow: hidden">
+              <img
+                src="../images/4th.jpg"
+                alt="Weather App"
+                class="w-full"
+                style="
+                  height: 220px;
+                  object-fit: cover;
+                  transition: transform 0.5s ease;
+                "
+                onmouseover="this.style.transform='scale(1.07)'"
+                onmouseout="this.style.transform='scale(1)'"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="text-center" style="padding: 30px 20px">
+              <h2
+                class="text-2xl font-semibold text-gray-900"
+                style="margin-bottom: 14px"
+              >
+                Weather App
+              </h2>
+              <p
+                class="text-gray-600"
+                style="font-size: 16px; margin-bottom: 30px"
+              >
+                A beautiful weather application built with JavaScript and
+                OpenWeather API.
+              </p>
+
+              <!-- CTA Button appears on hover -->
+              <div
+                class="absolute bottom-6 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              >
+                <a
+                  href="pages/news.html"
+                  class="bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition-all duration-300"
+                  style="
+                    padding: 10px 28px;
+                    font-size: 14px;
+                    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+                  "
+                >
+                  View Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of Card -->
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer
+        class="bg-gradient-to-r from-orange-400 to-red-500 text-white rounded-bl-[10px] rounded-br-[10px]"
+        style="padding: 20px 0; margin-top: 15px"
+      >
+        <div
+          class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6"
+          style="padding: 0px 20px"
+        >
+          <!-- Logo or Brand Name -->
+          <div class="text-2xl font-bold uppercase tracking-wide">
+            JavaScript
+          </div>
+
+          <!-- Footer Navigation Links -->
+          <ul class="flex gap-6 text-base md:text-lg font-medium">
+            <li>
+              <a href="index.html" class="hover:underline transition">Home</a>
+            </li>
+            <li><a href="#" class="hover:underline transition">About</a></li>
+            <li><a href="#" class="hover:underline transition">Contact</a></li>
+          </ul>
+
+          <!-- Social Icons -->
+          <div class="flex gap-5 text-xl md:text-2xl">
+            <a href="#" class="hover:text-blue-200 transition"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="#" class="hover:text-gray-200 transition"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="#" class="hover:text-blue-300 transition"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" class="hover:text-red-300 transition"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Bottom Line -->
+        <div
+          class="text-center text-sm text-white/90 mt-6 border-t border-white/30 pt-4"
+          style="padding-top: 30px; margin-top: 40px"
+        >
+          &copy; 2025 <span class="font-semibold">JavaScript</span>. All rights
+          reserved.
+        </div>
+      </footer>
+    </main>
+    <!-- <script src=" basic.js"></script> -->
+    <!-- <script src="functions.js"></script> -->
+    <!-- <script src="object.js"></script> -->
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="class.js"></script> -->
+    <!-- <script src="classInhretanc.js"></script> -->
+    <!-- <script src="JavaScriptModules/commonjs.js"></script> -->
+    <!-- <script type="module" src="JavaScriptModules/Es6.js"></script> -->
+    <!-- <script src="Promiss/prs.js"></script> -->
+    <!--  <script src="fetach.js"></script> -->
+
+    <!-- 	read form api -->
+    <script src="product.js"></script>
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="crypto.js"></script>
+  </body>
+</html>
