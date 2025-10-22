@@ -73,6 +73,27 @@ header .navbar {
   animation: popup 2s ease-in-out forwards;
 }
 
+/* slidup_project_icon  */
+@keyframes slidup_icon {
+  0% {
+    transform: translate(-50%, 60px) scale(0.8);
+    opacity: 0;
+  }
+  60% {
+    transform: translate(-50%, -5px) scale(1.05);
+    opacity: 1;
+    /*  */
+  }
+  100% {
+    transform: translate(-50%, 0) scale(1);
+    opacity: 1;
+    /*  */
+  }
+}
+.slidup_project_icon {
+  animation: slidup_icon 2s ease-in-out forwards;
+}
+
 /* product section */
 .product_list {
   display: flex;
