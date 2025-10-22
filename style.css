@@ -20,6 +20,16 @@ body {
   margin: 0 auto;
   font-family: "IBM Plex Sans Condensed", sans-serif;
 }
+/* container for 100% width */
+.max-contianer {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  overflow: auto;
+  /* -webkit-overflow-scrolling: touch; */
+}
 
 /* header */
 header .navbar {

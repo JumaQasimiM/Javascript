@@ -78,20 +78,39 @@
         </div>
         <!-- popip section -->
         <div
-          class="animate_popup absolute -bottom-6 left-1/2 -translate-x-1/3 w-full md:w-1/3 h-24 flex justify-center items-center rounded bg-white shadow-lg"
+          class="animate_popup absolute -bottom-6 left-1/2 -translate-x-1/4 w-1/2 h-24 flex justify-center items-center rounded bg-white shadow-lg"
         >
-          <span class="font-semibold text-gray-800 text-base"
-            >Hi, I'm Juma Qasimi a Web developer.</span
-          >
-          <a
-            href="https://www.linkedin.com/in/mohammad-qasimi"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="bg-[#ff6b6b] text-white rounded-xl font-semibold hover:bg-[#ff5252] transition cursor-pointer"
-            style="padding: 2px 10px; margin: 0px 10px"
-          >
-            My Linkedin
-          </a>
+          <!-- mobile -->
+          <div class="md:hidden">
+            <a
+              href="https://www.linkedin.com/in/mohammad-qasimi"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-xl font-semibold"
+            >
+              <div class="flex gap-10">
+                <i
+                  class="fa-brands fa-square-github text-gray-800 text-2xl"
+                ></i>
+                <i class="fa-brands fa-linkedin-in text-blue-300 text-2xl"></i>
+              </div>
+            </a>
+          </div>
+          <!-- md  -->
+          <div class="hidden md:block">
+            <span class="font-semibold text-gray-800 text-base"
+              >Hi, I'm Juma Qasimi a Web developer.</span
+            >
+            <a
+              href="https://www.linkedin.com/in/mohammad-qasimi"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="bg-[#ff6b6b] text-white rounded-xl font-semibold hover:bg-[#ff5252] transition cursor-pointer"
+              style="padding: 2px 10px; margin: 0px 10px"
+            >
+              My Linkedin
+            </a>
+          </div>
         </div>
       </section>
       <!-- Popular Technologies Marquee section-->
@@ -198,18 +217,25 @@
           background: linear-gradient(183deg, #00c9ff, #ff6b6b);
         "
       >
-        <h1 class="text-center text-4xl font-bold" style="margin-bottom: 20px">
+        <h1
+          class="text-center text-2xl md:text-4xl font-bold"
+          style="margin-bottom: 20px"
+        >
           Featured Projects
         </h1>
         <!-- Start cards -->
 
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-10">
           <!-- start project card -->
           <div
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
-            <img src="images/3th.jpg" alt="" class="w-full h-56" />
+            <img
+              src="images/3th.jpg"
+              alt=""
+              class="w-full h-36 sm:h-56 md:h-56"
+            />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
               <!-- project title -->
@@ -262,7 +288,11 @@
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
-            <img src="images/3th.jpg" alt="" class="w-full h-56" />
+            <img
+              src="images/3th.jpg"
+              alt=""
+              class="w-full h-36 sm:h-56 md:h-56"
+            />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
               <!-- project title -->
@@ -314,14 +344,18 @@
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
-            <img src="images/4th.jpg" alt="" class="w-full h-56" />
+            <img
+              src="images/4th.jpg"
+              alt=""
+              class="w-full h-36 sm:h-56 md:h-56"
+            />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
               <!-- project title -->
               <h4 class="font-bold text-xl">Online Shoping</h4>
               <!-- description -->
               <p class="font-semibold" style="margin: 0.5rem 0">
-                Online Shoping with JavaScript CSS3 and fetch data form API
+                Online Shoping with JavaScript CSS3 API
               </p>
               <!-- ratin -->
               <div
@@ -367,7 +401,11 @@
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
-            <img src="images/3th.jpg" alt="" class="w-full h-56" />
+            <img
+              src="images/3th.jpg"
+              alt=""
+              class="w-full h-36 sm:h-56 md:h-56"
+            />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
               <!-- project title -->
@@ -419,7 +457,38 @@
           <!-- End Cards  -->
         </div>
       </section>
-
+      <!-- social Mieda section -->
+      <section class="">
+        <div
+          class="max-contianer bg-blue-500"
+          style="padding: 20px; margin: 1.4rem 0"
+        >
+          <div class="">
+            <div class="flex justify-around items-center font-medium">
+              <div>
+                <i class="fa-brands fa-google-drive text-xl md:text-3xl"></i>
+                <samp class="text-lg md:text-2xl text-white">Resp</samp>
+              </div>
+              <div>
+                <i class="fa-brands fa-mailchimp text-xl md:text-3xl"></i>
+                <samp class="text-lg md:text-2xl text-white">UI</samp>
+              </div>
+              <div>
+                <i class="fa-brands fa-html5 text-xl md:text-3xl"></i>
+                <samp class="text-lg md:text-2xl text-white">Techno</samp>
+              </div>
+              <div>
+                <i class="fa-brands fa-jenkins text-xl md:text-3xl"></i>
+                <samp class="text-lg md:text-2xl text-white">Access</samp>
+              </div>
+              <div>
+                <i class="fa-brands fa-searchengin text-xl md:text-3xl"></i>
+                <samp class="text-lg md:text-2xl text-white">SEO</samp>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- footer -->
       <footer
         class="bg-[#ff6b6b] text-white rounded-bl-[10px] rounded-br-[10px]"
