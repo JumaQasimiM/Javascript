@@ -60,11 +60,9 @@ project-folder/
 
    Visit http://127.0.0.1:5500/index.html
 
-🧑‍💻 Author
+🧑‍💻 Author: Mohmmad Qaimi
 
-Mohmmad Qaimi
 💼 GitHub: @JumaQasimiM
-
 ✉️ Email: m.h.juma.qasimi@gmail.com
 
 <!--
@@ -149,4 +147,5 @@ JavaScript is prototype-based procedural language, which means it supports both 
 ## Live Demo
 
 [Live Demo](https://jumaqasimim.github.io/Javascript/) -->
+
 
