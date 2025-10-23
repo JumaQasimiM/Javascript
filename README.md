@@ -1,4 +1,4 @@
-# 🌐 Web Login Interface
+# 🌐 javaScript project 
 
 A modern, responsive login interface built with **HTML**, **Tailwind CSS**, and **JavaScript**.  
 The project includes smooth UI interactions, form validation, and redirect logic using JavaScript.  
@@ -9,7 +9,7 @@ Optionally
 ## 🚀 Live Preview
 
 You can open the project locally by visiting:
-[Live Demo](https://jumaqasimim.github.io/Javascript/)
+[Live](https://jumaqasimim.github.io/Javascript/)
 
 > 💡 Make sure you are running a local development server (for example, using VS Code’s Live Server extension).
 
@@ -65,7 +65,7 @@ project-folder/
 Mohmmad Qaimi
 💼 GitHub: @JumaQasimiM
 
-    ✉️ Email: m.h.juma.qasimi@gmail.com
+✉️ Email: m.h.juma.qasimi@gmail.com
 
 <!--
 
@@ -149,3 +149,4 @@ JavaScript is prototype-based procedural language, which means it supports both 
 ## Live Demo
 
 [Live Demo](https://jumaqasimim.github.io/Javascript/) -->
+
