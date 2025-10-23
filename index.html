@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Basic Javascript</title>
-
+    <!-- AOS animation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- 	Tailwind css CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- fonst awesome -->
@@ -23,30 +24,40 @@
       <!-- Header -->
       <header>
         <div
-          class="navbar bg-[#ff6b6b] rounded-tl-[10px] rounded-tr-[10px] text-white"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          class="flex justify-between items-center bg-[#ff6b6b] rounded-tl-[10px] rounded-tr-[10px] text-white"
+          style="padding: 1rem; margin-bottom: 0.5rem"
         >
-          <div class="logo">JAVASCRIPT</div>
-          <nav class="">
-            <ul class="text-2xl">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li><a href="">About</a></li>
-              <li><a href="">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="">
-            <button
-              class="text-xl cursor-pointer w-20 py-4 hover:text-white transition"
-            >
-              Login
+          <div class="font-bold text-yellow-400">JAVASCRIPT.</div>
+
+          <!-- <ul class="flex justify-around gap-5"></ul> -->
+          <div>
+            <input
+              type="search"
+              placeholder="Search"
+              class="border w-69 rounded"
+              style="padding: 0.4rem"
+            />
+            <button class="border rounded" style="padding: 0.4rem">
+              Submit
             </button>
           </div>
-          <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+          <a
+            href="pages/login.html"
+            class="text-xl cursor-pointer w-20 py-4 hover:text-white transition"
+          >
+            Login
+          </a>
+
+          <div class="block md:hidden"><i class="fa-solid fa-bars"></i></div>
         </div>
       </header>
+
       <!-- hero section -->
       <section
+        data-aos="fade-up"
+        data-aos-duration="1300"
         class="w-full relative overflow-visible hero flex justify-center items-center h-[600px] rounded-bl-[10px] rounded-br-[10px]"
         style="background: linear-gradient(183deg, #ff6b6b, #00c9ff)"
       >
@@ -116,6 +127,7 @@
           </div>
         </div>
       </section>
+
       <!-- Popular Technologies Marquee section-->
       <section class="overflow-hidden flex gap-5" style="margin: 2.5rem 0">
         <!-- <div class="flex whitespace-nowrap animate-technologies-marquee gap-10"> -->
@@ -207,8 +219,8 @@
           </div>
         </div>
       </section>
-      <!-- popular project section -->
 
+      <!-- popular project section -->
       <section
         id="projects"
         class="bg-yellow-400 text-gray-800 rounded-tr-[10px] rounded-tl-[10px]"
@@ -231,6 +243,9 @@
         <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-10">
           <!-- start project card -->
           <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="1500"
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
@@ -284,10 +299,17 @@
           </div>
           <!-- 2 -->
           <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2500"
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
-            <img src="images/3th.jpg" alt="" class="w-full sm:h-56 md:h-56" />
+            <img
+              src="images/weather.jpg"
+              alt=""
+              class="w-full sm:h-56 md:h-56"
+            />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
               <!-- project title -->
@@ -336,13 +358,16 @@
           </div>
           <!-- 3 -->
           <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2800"
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
             <img
-              src="images/4th.jpg"
+              src="images/shoping.jpg"
               alt=""
-              class="w-full h-46 sm:h-56 md:h-56"
+              class="w-full h-46 sm:h-56 md:h-56 object-fit"
             />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
@@ -393,10 +418,13 @@
           </div>
           <!-- 4 -->
           <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="3000"
             class="relative group overflow-hidden bg-white flex flex-col text-center rounded-b-[10px]"
           >
             <!-- image -->
-            <img src="images/3th.jpg" alt="" class="w-full sm:h-56 md:h-56" />
+            <img src="images/news.jpg" alt="" class="w-full sm:h-56 md:h-56" />
             <div class="space-y-5" style="padding: 10px">
               <!-- contents-->
               <!-- project title -->
@@ -547,5 +575,11 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="crypto.js"></script>
+
+    <!-- AOS animation library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
