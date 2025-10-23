@@ -58,13 +58,14 @@ project-folder/
 
 5. Select “Open with Live Server”
 
-Visit http://127.0.0.1:5500/index.html
+   Visit http://127.0.0.1:5500/index.html
+
 🧑‍💻 Author
 
-Your Name
+Mohmmad Qaimi
 💼 GitHub: @JumaQasimiM
 
-✉️ Email: m.h.juma.qasimi@gmail.com
+    ✉️ Email: m.h.juma.qasimi@gmail.com
 
 <!--
 
