@@ -213,7 +213,7 @@ header .navbar {
 }
 
 /* marquee for technologies  */
-@keyframes marquee {
+/* @keyframes marquee {
   0% {
     transform: translateX(100%);
   }
@@ -224,7 +224,7 @@ header .navbar {
 .animate-technologies-marquee {
   display: inline-flex;
   animation: marquee 10s linear infinite;
-}
+} */
 /* marquee */
 
 .marquee {
@@ -457,3 +457,4 @@ canvas {
     height: 100% !important;
   }
 }
+
