@@ -231,8 +231,6 @@ header .navbar {
   overflow: hidden;
 }
 .marquee__content {
-  display: inline-flex;
-  white-space: nowrap;
   animation: marquee 20s linear infinite;
 }
 @keyframes marquee {
@@ -457,4 +455,3 @@ canvas {
     height: 100% !important;
   }
 }
-
