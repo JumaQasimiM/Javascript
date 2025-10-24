@@ -1,6 +1,6 @@
 # 🌐 javaScript project 
 
-A modern, responsive login interface built with **HTML**, **Tailwind CSS**, and **JavaScript**.  
+A modern, responsive page with login interface built with **HTML**, **Tailwind CSS**, and **JavaScript**.  
 The project includes smooth UI interactions, form validation, and redirect logic using JavaScript.  
 Optionally
 
@@ -147,5 +147,6 @@ JavaScript is prototype-based procedural language, which means it supports both 
 ## Live Demo
 
 [Live Demo](https://jumaqasimim.github.io/Javascript/) -->
+
 
 
