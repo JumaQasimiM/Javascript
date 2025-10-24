@@ -28,7 +28,7 @@ body {
   width: 100vw;
   transform: translateX(-50%);
   overflow: auto;
-  /* -webkit-overflow-scrolling: touch; */
+  -webkit-overflow-scrolling: touch;
 }
 
 /* header */
@@ -227,12 +227,6 @@ header .navbar {
 } */
 /* marquee */
 
-.marquee {
-  overflow: hidden;
-}
-.marquee__content {
-  animation: marquee 20s linear infinite;
-}
 @keyframes marquee {
   0% {
     transform: translateX(0%);
@@ -241,7 +235,9 @@ header .navbar {
     transform: translateX(-50%);
   }
 }
-
+.marquee__content {
+  animation: marquee 20s linear infinite;
+}
 @media (max-width: 820px) {
   .product_list {
     flex-direction: column;
