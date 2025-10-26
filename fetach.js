@@ -5,7 +5,6 @@ fetch('https://reqres.in/api/product')
     .then(data=>console.log(data))
     .catch(err=>console.log(err));
 // create json
-
 const new_user ={
     id:100,
     first_name:'juma',
@@ -77,6 +76,7 @@ fetch('https://reqres.in/api/users/1000',{
 .then(data=>console.log(data))
 
 .catch(err=>console.log(err));
+
 
 
 
